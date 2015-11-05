@@ -1,0 +1,29 @@
+{
+    "date": "1944-09-17",
+    "description": "High risk operation to cross the Rhine which failed",
+    "id": "operation-market-garden",
+    "images": [
+        "img/chapters/operation-market-garden.0.jpg",
+        "img/chapters/operation-market-garden.1.jpg",
+        "img/chapters/operation-market-garden.2.jpg",
+        "img/chapters/operation-market-garden.3.jpg",
+        "img/chapters/operation-market-garden.4.jpg"
+    ],
+    "name": "Operation Market Garden",
+
+    "loser": {
+      "country": "USA",
+      "strength": "41,628 airborne troops",
+      "casualties": "17,200 casualties, 88 tanks, 144 aircraft"
+    },
+
+    "victor": {
+      "country": "GER",
+      "strength": "Unknown",
+      "casualties": "13,300 casuatlies, 30 tanks, 159 aircraft"
+    },
+
+    "result": "Allied defeat"
+
+
+}

@@ -1,0 +1,17 @@
+[
+    {
+        "date": "1944-06-06",
+        "id": "brecourt-manor-assault",
+        "imageUrl": "img/chapters/brecourt-manor-assault.0.jpg",
+        "name": "Brecourt Manor Assault",
+        "snippet": "Classic example of small unit tactics overcoming larger enemy force."
+    },
+
+    {
+      "date": "1944-09-17",
+      "id": "operation-market-garden",
+      "imageUrl": "img/chapters/operation-market-garden.0.jpg",
+      "name": "Operation Market Garden",
+      "snippet": "High risk operation to cross the Rhine which failed"
+    }
+]

@@ -14,15 +14,15 @@ var ww2App = angular.module('ww2App', [
 ww2App.config(['$routeProvider',
   function($routeProvider) {
     $routeProvider.
-      when('/toc', {
+      when('/chapters', {
         templateUrl: 'partials/chapter-list.html',
         controller: 'ChapterListCtrl'
       }).
-      when('/toc/:chapterId', {
+      when('/chapters/:chapterId', {
         templateUrl: 'partials/chapter-detail.html',
         controller: 'ChapterDetailCtrl'
       }).
       otherwise({
-        redirectTo: '/toc'
+        redirectTo: '/chapters'
       });
   }]);
