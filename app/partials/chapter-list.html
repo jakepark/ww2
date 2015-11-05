@@ -8,7 +8,7 @@
       Sort by:
       <select ng-model="orderProp">
         <option value="name">Alphabetical</option>
-        <option value="age">Newest</option>
+        <option value="date">Date</option>
       </select>
 
 
@@ -20,6 +20,7 @@
           class="thumbnail chapter-listing">
           <a href="#/chapters/{{chapter.id}}" class="thumb"><img ng-src="{{chapter.imageUrl}}"</a>
           <a href="#/chapters/{{chapter.id}}">{{chapter.name}}</a>
+          <p>{{chapter.date}}</p>
           <p>{{chapter.snippet}}</p>
         </li>
       </ul>

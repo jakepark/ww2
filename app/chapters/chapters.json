@@ -1,5 +1,6 @@
 [
     {
+        "age": 0,
         "date": "1944-06-06",
         "id": "brecourt-manor-assault",
         "imageUrl": "img/chapters/brecourt-manor-assault.0.jpg",
@@ -8,10 +9,23 @@
     },
 
     {
+      "age": 1,
       "date": "1944-09-17",
+      "date_end": "1944-09-25",
       "id": "operation-market-garden",
       "imageUrl": "img/chapters/operation-market-garden.0.jpg",
       "name": "Operation Market Garden",
       "snippet": "High risk operation to cross the Rhine which failed"
+    },
+
+    {
+      "age": 2,
+      "date": "1944-10-23",
+      "date_end": "1944-10-26",
+      "id": "battle-leyte-gulf",
+      "imageUrl": "img/chapters/battle-leyte-gulf.0.jpg",
+      "name": "Battle of Leyte Gulf",
+      "snippet": "Largest naval battle of WW2"
+
     }
 ]

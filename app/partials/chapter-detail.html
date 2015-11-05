@@ -9,7 +9,8 @@
 
 
 
-<h1>{{chapter.date}}</h1>
+<h1>{{chapter.name}}</h1>
+<h2>{{chapter.date | date : 'MMMM d, y' }}</h2>
 
 <p>{{chapter.description}}</p>
 
@@ -20,5 +21,13 @@
 </ul>
 
 <ul class="specs">
+
+  <span>Result: {{chapter.result}}</span>
+  <dl>
+    <dt>Victor: </dt>
+      <dd ng-repeat="stats in chapter.victor">{{stats}}</dd>
+    <dt>Loser: </dt>
+      <dd ng-repeat="stats in chapter.loser">{{stats}}</dd>
+  </dl>
 
 </ul>

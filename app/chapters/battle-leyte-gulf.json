@@ -1,0 +1,28 @@
+{
+    "date": "1944-10-23",
+    "date_end": "1944-10-26",
+    "description": "Largest naval battle of WW2",
+    "id": "battle-leyte-gulf",
+    "images": [
+        "img/chapters/battle-leyte-gulf.0.jpg",
+        "img/chapters/battle-leyte-gulf.1.jpg",
+        "img/chapters/battle-leyte-gulf.2.jpg"
+    ],
+    "name": "The Battle of Leyte Gulf",
+
+    "victor": {
+      "country": "USA",
+      "strength": "~300 ships; 8 fleet carriers, 8 light carriers, 18 escort carriers, 12 battleships, 24 cruisers, 166 destroyers, ~1500 planes",
+      "casualties": "~3,000 casualties; 1 light carrier, 2 escort carriers, 2 destroyers, 1 destroyer escort sunk; 200+ planes"
+    },
+
+    "loser": {
+      "country": "JAP",
+      "strength": "~67 ships; 1 fleet carrier, 3 light carriers, 9 battleships, 14 heavy cruisers, 6 light cruisers, 35+ destroyers, 300+ planes",
+      "casualties": "12,500 dead; 1 fleet carrier, 3 light carriers, 3 battleships, 10 cruisers, 11 destroyers sunk; 300+ planes"
+    },
+
+    "result": "Decisive Allied victory"
+
+
+}

@@ -7,7 +7,7 @@ var ww2Controllers = angular.module('ww2Controllers', []);
 ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
   function ($scope, Chapter) {
     $scope.chapters = Chapter.query();
-    $scope.orderProp = 'date';
+    $scope.orderProp = 'age';
   }
 ]);
 
