@@ -1,15 +1,26 @@
+<header class="toc">
+  <div class="title">
+    The Abridged History of World War 2: 1944
+  </div>
+
+  <div class="search">
+    Search: <input ng-model="query">
+  </div>
+
+  <div class="sort">
+    Sort by:
+    <select ng-model="orderProp">
+      <option value="name">Alphabetical</option>
+      <option value="date">Date</option>
+    </select>
+  </div>
+
+</header>
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2">
-
-
-      Search: <input ng-model="query">
-      Sort by:
-      <select ng-model="orderProp">
-        <option value="name">Alphabetical</option>
-        <option value="date">Date</option>
-      </select>
+    <div class="col-md-2" style="border: 1px solid red">
+      foo
 
 
     </div>
@@ -20,7 +31,7 @@
           class="thumbnail chapter-listing">
           <a href="#/chapters/{{chapter.id}}" class="thumb"><img ng-src="{{chapter.imageUrl}}"</a>
           <a href="#/chapters/{{chapter.id}}">{{chapter.name}}</a>
-          <p>{{chapter.date}}</p>
+          <p>{{chapter.date | date : 'MMMM d, y' }}</p>
           <p>{{chapter.snippet}}</p>
         </li>
       </ul>
