@@ -32,7 +32,7 @@
 }
 
 body {
-  padding-top: 20px;
+  /*padding-top: 20px;*/
 }
 
 .chapters {
@@ -88,6 +88,30 @@ body {
 
 
 /** Detail View **/
+
+.chapter-navbar{
+  padding: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+
+.sidebar {
+  font-size: 24px;
+  margin: 0 0 0 10px;
+}
+
+.navback {
+
+}
+
+.navback:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
 img.chapter {
   float: left;
   margin-right: 3em;
@@ -103,10 +127,17 @@ img.chapter:first-child {
   display: block;
 }
 
+div.sidebar {
+  float: left;
+  width: 200px;
+  border-right: 1px solid black;
+  height: 1000px
+}
 
 div.chapter-container{
   width: 1000px;
   margin: 0 auto;
+  float: left;
 }
 
 div.chapter-left{
