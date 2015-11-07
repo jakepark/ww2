@@ -76,6 +76,45 @@ img.chapter:first-child {
   display: block;
 }
 
+
+div.chapter-container{
+  width: 1000px;
+  margin: 0 auto;
+}
+
+div.chapter-left{
+  width: 500px;
+  float: left
+}
+
+div.chapter-right{
+  width: 500px;
+  float: right;
+  border: 1px solid black;
+}
+
+span.result{
+  font-size: 24px;
+  font-weight: bold;
+
+
+}
+
+
+div.chapter-right div.victor{
+  width: 248px;
+  float: left;
+  border-right: 1px solid black;
+}
+
+
+div.chapter-right div.loser{
+  width: 248px;
+  float: right
+}
+
+
+
 ul.chapter-thumbs {
   margin: 0;
   list-style: none;
@@ -99,6 +138,7 @@ ul.specs {
   margin: 0;
   padding: 0;
   list-style: none;
+  border-bottom: 1px solid black;
 }
 
 ul.specs > li{

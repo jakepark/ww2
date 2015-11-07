@@ -7,27 +7,36 @@
        ng-class="{active:mainImageUrl==img}">
 </div>
 
+<div class="chapter-container group">
+
+  <div class="chapter-left">
+    <h1>{{chapter.name}}</h1>
+    <h2>{{chapter.date | date : 'MMMM d, y' }}</h2>
+    <p>{{chapter.description}}</p>
+  </div>
+
+  <div class="chapter-right group">
+    <ul class="specs">
+      <span class="result">Result: {{chapter.result}}</span>
+      <dl>
+        <div class="victor">
+          <dt>Victor: </dt>
+            <dd ng-repeat="stats in chapter.victor">{{stats}}</dd>
+        </div>
+
+        <div class="loser">
+          <dt>Loser: </dt>
+            <dd ng-repeat="stats in chapter.loser">{{stats}}</dd>
+        </div>
 
 
-<h1>{{chapter.name}}</h1>
-<h2>{{chapter.date | date : 'MMMM d, y' }}</h2>
+      </dl>
+    </ul>
+  </div>
 
-<p>{{chapter.description}}</p>
-
-<ul class="chapter-thumbs">
-  <li ng-repeat="img in chapter.images">
-    <img ng-src="{{img}}" ng-click="setImage(img)">
-  </li>
-</ul>
-
-<ul class="specs">
-
-  <span>Result: {{chapter.result}}</span>
-  <dl>
-    <dt>Victor: </dt>
-      <dd ng-repeat="stats in chapter.victor">{{stats}}</dd>
-    <dt>Loser: </dt>
-      <dd ng-repeat="stats in chapter.loser">{{stats}}</dd>
-  </dl>
-
-</ul>
+  <ul class="chapter-thumbs">
+    <li ng-repeat="img in chapter.images">
+      <img ng-src="{{img}}" ng-click="setImage(img)">
+    </li>
+  </ul>
+</div>
