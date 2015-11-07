@@ -53,6 +53,7 @@ body {
   height: 50px;
   padding-top: 15px;
   border-bottom: 1px solid black;
+  border-left: 1px solid black;
 }
 
 .chapter-images {
@@ -64,13 +65,19 @@ body {
   float: left;
 }
 
+.col-md-2 {
+  /*border-left: 1px solid black;*/
+  width: 100px;
+}
+
 .col-md-10 {
-  border-left: 1px solid black;
+  /*border-left: 1px solid black;*/
 }
 
 .chapters .age{
   float: left;
   width: 50px;
+  margin: 0 0 0 25px;
 }
 
 .chapters .details{

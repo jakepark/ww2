@@ -1,11 +1,9 @@
 <a href="#/chapters">Back</a>
 
-<div class="chapter-images">
-  <img ng-src="{{mainImageUrl}}"
-       class="chapter"
-       ng-repeat="img in chapter.images"
-       ng-class="{active:mainImageUrl==img}">
+<div class="sidebar">
+  {{chapter.age}}
 </div>
+
 
 <div class="chapter-container group">
 
@@ -32,6 +30,13 @@
 
       </dl>
     </ul>
+  </div>
+
+  <div class="chapter-images">
+    <img ng-src="{{mainImageUrl}}"
+         class="chapter"
+         ng-repeat="img in chapter.images"
+         ng-class="{active:mainImageUrl==img}">
   </div>
 
   <ul class="chapter-thumbs">
