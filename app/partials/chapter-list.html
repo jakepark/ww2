@@ -17,8 +17,8 @@
 
 <div class="container-fluid">
   <div class="row">
-    <div class="col-md-2" style="border: 1px solid red">
-      foo
+    <div class="col-md-2" >
+
 
 
     </div>
@@ -26,11 +26,18 @@
 
       <ul class="chapters">
         <li ng-repeat="chapter in chapters | filter:query | orderBy:orderProp"
-          class="thumbnail chapter-listing">
-          <a href="#/chapters/{{chapter.id}}" class="thumb"><img ng-src="{{chapter.imageUrl}}"</a>
-          <a href="#/chapters/{{chapter.id}}">{{chapter.name}}</a>
-          <p>{{chapter.date | date : 'MMMM d, y' }}</p>
-          <p>{{chapter.snippet}}</p>
+          class="chapter-listing">
+          <!-- <a href="#/chapters/{{chapter.id}}" class="thumb"><img ng-src="{{chapter.imageUrl}}"</a> -->
+          <a href="#/chapters/{{chapter.id}}">
+          <div class="age">
+            {{chapter.age}}
+          </div>
+          <div class="details">
+            <p>{{chapter.name}}, {{chapter.date_start | date : 'MMMM d y' }} -
+              {{chapter.date_end | date : 'MMMM d y' }}</p>
+          </div>
+
+          </a>
         </li>
       </ul>
 

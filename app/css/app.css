@@ -1,37 +1,5 @@
 /* app css stylesheet */
 
-body {
-  padding-top: 20px;
-}
-
-.chapters {
-  list-style: none;
-}
-
-.thumb {
-  float: left;
-  margin: -0.5em 1em 1.5em 0;
-  padding-bottom: 1em;
-  height: 100px;
-  width: 100px;
-}
-
-.chapters li {
-  clear: both;
-  height: 115px;
-  padding-top: 15px;
-}
-
-.chapter-images {
-  background-color: white;
-  width: 450px;
-  height: 450px;
-  overflow: hidden;
-  position: relative;
-  float: left;
-}
-
-
 /* Clearfix */
 
 .group:after {
@@ -44,21 +12,73 @@ body {
 
 .toc {
   margin: 0 auto;
-  border: 1px solid red;
+  border-bottom: 1px solid black;
 }
 
 .toc > .title {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   font-size: 36px;
-  width: 700px;
+  /* width: 700px; */
   float: left;
+  margin: 0 0 0 50px;
+  font-family: serif;
+  color: grey;
 }
 
 .toc > .search {
-  border: 1px solid green;
   font-size: 18px;
   float: right;
+  margin: 10px 50px 0 0;
 }
+
+body {
+  padding-top: 20px;
+}
+
+.chapters {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.thumb {
+  float: left;
+  margin: -0.5em 1em 1.5em 0;
+  padding-bottom: 1em;
+  height: 100px;
+  width: 100px;
+}
+
+.chapters li {
+  clear: both;
+  height: 50px;
+  padding-top: 15px;
+  border-bottom: 1px solid black;
+}
+
+.chapter-images {
+  background-color: white;
+  width: 450px;
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+  float: left;
+}
+
+.col-md-10 {
+  border-left: 1px solid black;
+}
+
+.chapters .age{
+  float: left;
+  width: 50px;
+}
+
+.chapters .details{
+  float: left;
+}
+
+
+
 
 /** Detail View **/
 img.chapter {
