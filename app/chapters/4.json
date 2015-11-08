@@ -1,9 +1,8 @@
 {
-    "age": 3,
     "date": "1944-10-23",
     "date_end": "1944-10-26",
     "description": "Largest naval battle of WW2",
-    "id": "battle-leyte-gulf",
+    "id": 4,
     "images": [
         "img/chapters/battle-leyte-gulf.0.jpg",
         "img/chapters/battle-leyte-gulf.1.jpg",

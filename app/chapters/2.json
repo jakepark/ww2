@@ -1,8 +1,8 @@
 {
-    "age": 1,
     "date": "1944-06-06",
+    "date_end": "1944-06-06",
     "description": "Classic example of small unit tactics overcoming larger enemy force",
-    "id": "brecourt-manor-assault",
+    "id": 2,
     "images": [
         "img/chapters/brecourt-manor-assault.0.jpg",
         "img/chapters/brecourt-manor-assault.1.gif",

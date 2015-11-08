@@ -1,0 +1,27 @@
+{
+    "date": "1944-06-06",
+    "date_end": "1944-09-25",
+    "description": "Successful invasion of German-occupied Western Europe",
+    "id": 1,
+    "images": [
+        "img/chapters/operation-overlord.0.jpg"
+
+    ],
+    "name": "Operation Overlord",
+
+    "victor": {
+      "country": "USA, UK, Canada, Allied Forces",
+      "strength": "1.45-2.05 Million troops",
+      "casualties": "225,000 casualties, 4,100 planes, 4,000 tanks"
+    },
+
+    "loser": {
+      "country": "GER",
+      "strength": "380,000 - 1,000,000+ troops",
+      "casualties": "400,000 casualties, 2,100 planes, 2,200 tanks"
+    },
+
+    "result": "Decisive Allied victory"
+
+
+}

@@ -1,32 +1,42 @@
 [
-    {
-        "age": 1,
-        "date_start": "1944-06-06",
-        "date_end": "1944-06-06",
-        "id": "brecourt-manor-assault",
-        "imageUrl": "img/chapters/brecourt-manor-assault.0.jpg",
-        "name": "Brecourt Manor Assault",
-        "snippet": "Classic example of small unit tactics overcoming larger enemy force."
-    },
+  {
+      "age": 1,
+      "date_start": "1944-06-06",
+      "date_end": "1944-08-30",
+      "id": 1,
+      "imageUrl": "img/chapters/operation-overlord.0.jpg",
+      "name": "Operation Overlord",
+      "snippet": "Successful invasion of German-occupied Western Europe"
+  },
 
-    {
+  {
       "age": 2,
-      "date_start": "1944-09-17",
-      "date_end": "1944-09-25",
-      "id": "operation-market-garden",
-      "imageUrl": "img/chapters/operation-market-garden.0.jpg",
-      "name": "Operation Market Garden",
-      "snippet": "High risk operation to cross the Rhine and enter Germany"
-    },
+      "date_start": "1944-06-06",
+      "date_end": "1944-06-06",
+      "id": 2,
+      "imageUrl": "img/chapters/brecourt-manor-assault.0.jpg",
+      "name": "Brecourt Manor Assault",
+      "snippet": "Classic example of small unit tactics overcoming larger enemy force."
+  },
 
-    {
-      "age": 3,
-      "date_start": "1944-10-23",
-      "date_end": "1944-10-26",
-      "id": "battle-leyte-gulf",
-      "imageUrl": "img/chapters/battle-leyte-gulf.0.jpg",
-      "name": "Battle of Leyte Gulf",
-      "snippet": "Largest naval battle of WW2"
+  {
+    "age": 3,
+    "date_start": "1944-09-17",
+    "date_end": "1944-09-25",
+    "id": 3,
+    "imageUrl": "img/chapters/operation-market-garden.0.jpg",
+    "name": "Operation Market Garden",
+    "snippet": "High risk operation to cross the Rhine and enter Germany"
+  },
 
-    }
+  {
+    "age": 4,
+    "date_start": "1944-10-23",
+    "date_end": "1944-10-26",
+    "id": 4,
+    "imageUrl": "img/chapters/battle-leyte-gulf.0.jpg",
+    "name": "Battle of Leyte Gulf",
+    "snippet": "Largest naval battle of WW2"
+
+  }
 ]
