@@ -21,7 +21,13 @@
       "casualties": "400,000 casualties, 2,100 planes, 2,200 tanks"
     },
 
-    "result": "Decisive Allied victory"
+    "result": "Decisive Allied victory",
+
+    "pages": [
+      "first page",
+      "second page",
+      "third page"
+    ]
 
 
 }

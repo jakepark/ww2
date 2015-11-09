@@ -26,3 +26,11 @@ ww2App.config(['$routeProvider',
         redirectTo: '/chapters'
       });
   }]);
+
+/* JS DOM */
+
+var toggle = document.getElementById('toggle');
+
+toggle.onclick = function(){
+  var div = document.getElementById('')
+}

@@ -1,9 +1,13 @@
 
 
 <div class="sidebar">
-  <a href="#/chapters" class="navback">Back</a>
+  <a href="#/chapters" >
+    <img src="assets/images/back_arrow.png" class="navback" />
+  </a>
   <p class="detail-id">{{chapter.id}}</p>
-  <p>{{chapter.name}}</p>
+  <p class="detail-title">{{chapter.name}},
+    {{chapter.date | date: 'MMMM, y'}} -
+    {{chapter.date_end |  date: 'MMMM, y'}}</p>
 </div>
 
 
@@ -13,41 +17,10 @@
     Chapter Resources
   </div>
 
-  <div class="chapter-left">
-    <h1>{{chapter.name}}</h1>
-    <h2>{{chapter.date | date : 'MMMM d, y' }}</h2>
-    <p>{{chapter.description}}</p>
-  </div>
-
-  <div class="chapter-right group">
-    <ul class="specs">
-      <h1 class="result">Result: {{chapter.result}}</h1>
-      <dl>
-        <div class="victor">
-          <dt>Victor: </dt>
-            <dd ng-repeat="stats in chapter.victor">{{stats}}</dd>
-        </div>
-
-        <div class="loser">
-          <dt>Loser: </dt>
-            <dd ng-repeat="stats in chapter.loser">{{stats}}</dd>
-        </div>
+  <!-- <div ng-repeat="page in chapter.pages"> -->
+    {{chapter.pages}}
+  <!-- </div> -->
 
 
-      </dl>
-    </ul>
-  </div>
 
-  <div class="chapter-images">
-    <img ng-src="{{mainImageUrl}}"
-         class="chapter"
-         ng-repeat="img in chapter.images"
-         ng-class="{active:mainImageUrl==img}">
-  </div>
-
-  <ul class="chapter-thumbs">
-    <li ng-repeat="img in chapter.images">
-      <img ng-src="{{img}}" ng-click="setImage(img)">
-    </li>
-  </ul>
 </div>
