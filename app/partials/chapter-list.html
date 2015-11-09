@@ -7,14 +7,16 @@
 
 
   <div class="search">
-    <img src="assets/images/magnifyingGlass.png" alt="" />
-    Search: <input ng-model="query">
+    <input class='searchicon' type="image" src="assets/images/magnifyingGlass.png" ng-click="checked ? checked=false : checked=true">
+    <div class="searchbox animate-show" ng-show="checked">
+      Search: <input ng-model="query">
 
-    Sort by:
-    <select ng-model="orderProp">
-      <option value="name">Alphabetical</option>
-      <option value="date">Date</option>
-    </select>
+      Sort by:
+      <select ng-model="orderProp">
+        <option value="name">Alphabetical</option>
+        <option value="date">Date</option>
+      </select>
+    </div>
   </div>
 
 </header>
