@@ -1,13 +1,20 @@
 
 
 <div class="sidebar">
-  <a href="#/chapters" >
-    <img src="assets/images/back_arrow.png" class="navback" />
-  </a>
-  <p class="detail-id">{{chapter.id}}</p>
-  <p class="detail-title">{{chapter.name}},
-    {{chapter.date | date: 'MMMM, y'}} -
-    {{chapter.date_end |  date: 'MMMM, y'}}</p>
+  <div class="sidebar-top">
+    <a href="#/chapters" >
+      <img src="assets/images/back_arrow.png" class="navback" />
+    </a>
+    <p class="detail-id">{{chapter.id}}</p>
+    <p class="detail-title">{{chapter.name}},
+      {{chapter.date | date: 'MMMM, y'}} -
+      {{chapter.date_end |  date: 'MMMM, y'}}</p>
+  </div>
+
+  <div class="sidebar-bottom">
+    Biographies
+    Endnotes
+  </div>
 </div>
 
 

@@ -148,17 +148,29 @@ img.chapter:first-child {
 div.sidebar {
   float: left;
   width: 200px;
+  height: 1000px;
+  position: relative;
   font-size: 24px;
   border-right: 1px solid black;
-  height: 1000px;
   text-align: center;
   background: url(../assets/images/leftdrawerbg.png);
+}
+
+div.sidebar-top {
+
+}
+
+div.sidebar-bottom {
+  position: absolute;
+  padding-top: 5px;
+  bottom: 100px;
 }
 
 div.chapter-container{
 
   margin: 0 auto;
-  float: left;
+  overflow: hidden;
+}
 }
 
 div.chapter-left{
