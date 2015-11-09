@@ -20,13 +20,29 @@
 
 <div class="chapter-container group">
 
-  <div class="chapter-navbar">
-    Chapter Resources
+  <div class="page-navbar">
+    {{chapter.pages[0].title}}
   </div>
 
-  <!-- <div ng-repeat="page in chapter.pages"> -->
-    {{chapter.pages}}
-  <!-- </div> -->
+  <div class="chapter-content">
+    {{chapter.pages[0].content}}
+  </div>
+
+
+  <div class="page-footer">
+
+    <a href="#/chapters/{{chapter.id}}/0">
+      <div class="pagePrev">
+        previous section
+      </div>
+    </a>
+
+    <a href="#/chapters/{{chapter.id}}/1">
+      <div class="pageNext">
+        next section
+      </div>
+    </a>
+  </div>
 
 
 

@@ -98,12 +98,24 @@ body {
 
 /** Detail View **/
 
-.chapter-navbar{
+.page-navbar{
   padding: 20px;
   font-size: 32px;
   border-bottom: 2px solid black;
 }
 
+.page-footer{
+  float: left;
+  width: 500px;
+}
+
+.page-footer .pagePrev{
+  float: left;
+}
+
+.page-footer .pageNext{
+  float: right;
+}
 
 .detail-id{
   border-bottom: 2px solid black;

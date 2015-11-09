@@ -23,11 +23,21 @@
 
     "result": "Decisive Allied victory",
 
-    "pages": [
-      "first page",
-      "second page",
-      "third page"
-    ]
 
+    "pages": [
+      {
+        "title": "Chapter Resources",
+        "content": "first page"
+      },
+      {
+        "title": "Introduction",
+        "content": "second page"
+      },
+      {
+        "title": "Third Page",
+        "content": "third page"
+      }
+
+    ]
 
 }
