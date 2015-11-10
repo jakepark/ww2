@@ -19,7 +19,7 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
 
       $scope.page = 0
       if ($routeParams.pageId){
-        $scope.page = $routeParams.pageId 
+        $scope.page = parseInt($routeParams.pageId, 10);
       }
 
     });
@@ -28,5 +28,7 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
     $scope.setImage = function(imageUrl){
       $scope.mainImageUrl = imageUrl;
     };
+
+
   }
 ]);
