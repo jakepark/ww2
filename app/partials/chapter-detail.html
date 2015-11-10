@@ -21,23 +21,24 @@
 <div class="chapter-container group">
 
   <div class="page-navbar">
-    {{chapter.pages[0].title}}
+    {{chapter.pages[page].title}}
+
   </div>
 
   <div class="chapter-content">
-    {{chapter.pages[0].content}}
+    {{chapter.pages[page].content}}
   </div>
 
 
   <div class="page-footer">
 
-    <a href="#/chapters/{{chapter.id}}/0">
+    <a href="#/chapters/{{chapter.id}}/{{page-1}}">
       <div class="pagePrev">
         previous section
       </div>
     </a>
 
-    <a href="#/chapters/{{chapter.id}}/1">
+    <a href="#/chapters/{{chapter.id}}/{{page+1}}">
       <div class="pageNext">
         next section
       </div>

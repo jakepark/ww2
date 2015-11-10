@@ -22,6 +22,10 @@ ww2App.config(['$routeProvider',
         templateUrl: 'partials/chapter-detail.html',
         controller: 'ChapterDetailCtrl'
       }).
+      when('/chapters/:chapterId/:pageId', {
+        templateUrl: 'partials/chapter-detail.html',
+        controller: 'ChapterDetailCtrl'
+      }).
       otherwise({
         redirectTo: '/chapters'
       });
