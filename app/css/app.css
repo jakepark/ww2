@@ -104,9 +104,14 @@ body {
   border-bottom: 2px solid black;
 }
 
+.chapter-content{
+  margin: 20px;
+}
+
 .page-footer{
   float: left;
   width: 500px;
+  margin: 20px;
 }
 
 .page-footer .pagePrev{
