@@ -1,6 +1,6 @@
 
 
-<div class="sidebar">
+<div class="sidebar" ng-hide="toggleSidebar">
   <div class="sidebar-top">
     <a href="#/chapters" >
       <img src="assets/images/back_arrow.png" class="navback" />
@@ -21,6 +21,13 @@
 <div class="chapter-container group">
 
   <div class="page-navbar">
+
+    <a href ng-click="toggleSidebar = !toggleSidebar"
+      ng-show="!toggleSidebar"><</a>
+    <a href ng-click="toggleSidebar = !toggleSidebar"
+      ng-show="toggleSidebar">></a>
+
+
     {{chapter.pages[page].title}}
 
   </div>
@@ -35,7 +42,7 @@
     <div class="prev" ng-hide="pageFirst">
       <a  href="#/chapters/{{chapter.id}}/{{page-1}}">
         <div class="pagePrev" >
-          previous section
+          < previous section
         </div>
       </a>
     </div>
@@ -43,7 +50,7 @@
     <div class="next" ng-hide="pageLast">
       <a href="#/chapters/{{chapter.id}}/{{page+1}}">
         <div class="pageNext">
-          next section
+          next section >
         </div>
       </a>
     </div>
