@@ -19,7 +19,11 @@ ww2App.config(['$routeProvider',
         controller: 'ChapterListCtrl'
       }).
       when('/chapters/:chapterId', {
-        templateUrl: 'partials/chapter-detail.html',
+        templateUrl: 'partials/chapter-resources.html',
+        controller: 'ChapterDetailCtrl'
+      }).
+      when('/chapters/:chapterId/0', {
+        templateUrl: 'partials/chapter-resources.html',
         controller: 'ChapterDetailCtrl'
       }).
       when('/chapters/:chapterId/:pageId', {

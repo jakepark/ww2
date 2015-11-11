@@ -27,7 +27,7 @@
     "pages": [
       {
         "title": "Chapter Resources",
-        "content": "first page"
+        "content": {}
       },
       {
         "title": "Introduction",
@@ -37,6 +37,27 @@
         "title": "Third Page",
         "content": "third page"
       }
+    ],
+
+    "objectives": [
+      "Describe",
+      "Contrast",
+      "Identify",
+      "Explain"
+    ],
+
+    "thoughts": [
+      "Did",
+      "Should",
+      "Assess",
+      "Military"
+    ],
+
+    "terms": [
+      "D-Day",
+      "Brecourt",
+      "Beaches"
     ]
+
 
 }

@@ -30,30 +30,38 @@
 
     {{chapter.pages[page].title}}
 
-
-    <div class="links">
-      <div class="prev" ng-hide="pageFirst">
-        <a  href="#/chapters/{{chapter.id}}/{{page-1}}">
-          <div class="pagePrev" >
-            <
-          </div>
-        </a>
-      </div>
-
-      <div class="next" ng-hide="pageLast">
-        <a href="#/chapters/{{chapter.id}}/{{page+1}}">
-          <div class="pageNext">
-            >
-          </div>
-        </a>
-      </div>
+    <div class="next" ng-hide="pageLast">
+      <a href="#/chapters/{{chapter.id}}/{{page+1}}">
+        <div class="pageNext">
+          >
+        </div>
+      </a>
     </div>
 
 
   </div>
 
-  <div class="chapter-content">
-    {{chapter.pages[page].content}}
+  <div class="chapter-resources">
+    <ol>
+      <h3>Reading Objectives:</h3>
+      <li class="chapter-objectives" ng-repeat="objective in chapter.objectives">
+        {{objective}}
+      </li>
+    </ol>
+    <ol>
+      <h3>Thought Questions:</h3>
+      <li class="chapter-thoughts" ng-repeat="thought in chapter.thoughts">
+
+        {{thought}}
+      </li>
+    </ol>
+    <ol>
+      <h3>Terms and Concepts:</h3>
+      <li class="chapter-terms" ng-repeat="term in chapter.terms">
+
+        {{term}}
+      </li>
+    </ol>
   </div>
 
 

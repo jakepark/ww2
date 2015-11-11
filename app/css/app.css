@@ -94,7 +94,27 @@ body {
 }
 
 
+/* Resources View */
 
+.chapter-resources {
+
+}
+
+.chapter-objectives {
+  list-style-type: decimal;
+}
+
+.chapter-thoughts {
+  list-style-type: decimal;
+}
+
+.chapter-terms {
+  list-style-type: decimal;
+}
+
+.page-navbar .next {
+  float: right;
+}
 
 /** Detail View **/
 
@@ -104,6 +124,13 @@ body {
   border-bottom: 2px solid black;
 }
 
+.page-navbar .links {
+  float: right;
+}
+
+.page-navbar .prev {
+  float: left;
+}
 .chapter-content{
   margin: 0 auto;
   max-width: 1100px;
