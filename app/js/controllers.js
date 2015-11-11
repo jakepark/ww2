@@ -17,9 +17,19 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
       $scope.mainImageUrl = chapter.images[0];
       $scope.pages = chapter.pages;
 
-      $scope.page = 0
+      $scope.page = 0;
       if ($routeParams.pageId){
         $scope.page = parseInt($routeParams.pageId, 10);
+      }
+
+      $scope.pageFirst = true;
+      if ($scope.page !== 0){
+        $scope.pageFirst = false;
+      }
+
+      $scope.pageLast = false;
+      if ($scope.page >= ($scope.pages.length-1)){
+        $scope.pageLast = true;
       }
 
     });

@@ -32,17 +32,21 @@
 
   <div class="page-footer">
 
-    <a href="#/chapters/{{chapter.id}}/{{page-1}}">
-      <div class="pagePrev">
-        previous section
-      </div>
-    </a>
+    <div class="prev" ng-hide="pageFirst">
+      <a  href="#/chapters/{{chapter.id}}/{{page-1}}">
+        <div class="pagePrev" >
+          previous section
+        </div>
+      </a>
+    </div>
 
-    <a href="#/chapters/{{chapter.id}}/{{page+1}}">
-      <div class="pageNext">
-        next section
-      </div>
-    </a>
+    <div class="next" ng-hide="pageLast">
+      <a href="#/chapters/{{chapter.id}}/{{page+1}}">
+        <div class="pageNext">
+          next section
+        </div>
+      </a>
+    </div>
   </div>
 
 

@@ -22,7 +22,22 @@
       "casualties": "12,500 dead; 1 fleet carrier, 3 light carriers, 3 battleships, 10 cruisers, 11 destroyers sunk; 300+ planes"
     },
 
-    "result": "Decisive Allied victory"
+    "result": "Decisive Allied victory",
+
+    "pages": [
+      {
+        "title": "Chapter Resources",
+        "content": "first page"
+      },
+      {
+        "title": "Introduction",
+        "content": "second page"
+      },
+      {
+        "title": "Third Page",
+        "content": "third page"
+      }
+    ]
 
 
 }

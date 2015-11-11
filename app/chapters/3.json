@@ -27,7 +27,22 @@
       "casualties": "13,300 casualties, 30 tanks, 159 aircraft"
     },
 
-    "result": "Allied defeat"
+    "result": "Allied defeat",
+
+    "pages": [
+      {
+        "title": "Chapter Resources",
+        "content": "first page"
+      },
+      {
+        "title": "Introduction",
+        "content": "second page"
+      },
+      {
+        "title": "Third Page",
+        "content": "third page"
+      }
+    ]
 
 
 }
