@@ -116,6 +116,18 @@ body {
   float: right;
 }
 
+
+.toggleHide{
+  position: fixed;
+  left: 180px;
+}
+
+.toggleShow{
+  position: fixed;
+  left: 0px;
+}
+
+
 /** Detail View **/
 
 .page-navbar{
