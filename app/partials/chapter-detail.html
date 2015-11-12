@@ -11,6 +11,12 @@
       {{chapter.date_end |  date: 'MMMM, y'}}</p>
   </div>
 
+  <div class="sidebar-links group">
+    <div class="sidebar-link" ng-repeat="page in chapter.pages">
+      <a href="#/chapters/{{chapter.id}}/{{page.id}}">o</a>
+    </div>
+  </div>
+
   <div class="sidebar-bottom">
     Biographies
     Endnotes

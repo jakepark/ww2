@@ -26,14 +26,17 @@
 
     "pages": [
       {
+        "id": 0,
         "title": "Chapter Resources",
         "content": {}
       },
       {
+        "id": 1,
         "title": "Introduction",
         "content": "second page"
       },
       {
+        "id": 2,
         "title": "Third Page",
         "content": "third page"
       }
