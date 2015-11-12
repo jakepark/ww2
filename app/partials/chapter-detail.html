@@ -59,7 +59,8 @@
   </div>
 
   <div class="chapter-content">
-    {{chapter.pages[page].content}}
+    <!-- {{chapter.pages[page].content}} -->
+    <p ng-bind-html="chapter.pages[page].content | nl2br"></p>
   </div>
 
 

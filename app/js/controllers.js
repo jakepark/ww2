@@ -2,7 +2,8 @@
 
 /* Controllers */
 
-var ww2Controllers = angular.module('ww2Controllers', []);
+var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize']);
+
 
 ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
   function ($scope, Chapter) {

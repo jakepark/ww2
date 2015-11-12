@@ -1,0 +1,29 @@
+{
+    "date": "1944-06-06",
+    "date_end": "1944-06-06",
+    "description": "Classic example of small unit tactics overcoming larger enemy force",
+    "id": 2,
+    "images": [
+        "img/chapters/brecourt-manor-assault.0.jpg",
+        "img/chapters/brecourt-manor-assault.1.gif",
+        "img/chapters/brecourt-manor-assault.2.gif"
+    ],
+    "name": "Brecourt Manor Assault",
+
+    "victor": {
+      "country": "USA",
+      "strength": "23 Paratroopers",
+      "casualties": "4 dead, 2 wounded"
+    },
+
+    "loser": {
+      "country": "GER",
+      "strength": "60 soldiers, 4 machine guns",
+      "casualties": "20 dead, 12 POW, 4 artillery disabled"
+    },
+
+    "result": "Tactical Allied victory"
+
+
+
+}
