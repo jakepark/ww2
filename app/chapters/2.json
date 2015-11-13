@@ -31,16 +31,25 @@
 
     "pages": [
       {
+        "id": 0,
         "title": "Chapter Resources",
-        "content": "first page"
+        "paragraphs": []
       },
       {
+        "id": 1,
         "title": "Introduction",
-        "content": "second page"
+        "paragraphs": [
+          "Operation Market Garden (17–25 September 1944) was an unsuccessful Allied military operation, fought in the Netherlands and Germany in the Second World War. It was the largest airborne operation up to that time."
+        ]
       },
       {
-        "title": "Third Page",
-        "content": "third page"
+        "id": 2,
+        "title": "Overview",
+        "paragraphs": [
+          "Field Marshal Montgomery's goal was to force an entry into Germany over the Lower Rhine. He wanted to circumvent the northern end of the Siegfried Line and this required the operation to seize the bridges across the Maas (Meuse River) and two arms of the Rhine (the Waal and the Lower Rhine) as well as several smaller canals and tributaries. Crossing the Lower Rhine would allow the Allies to encircle Germany's industrial heartland in the Ruhr from the north. It made large-scale use of airborne forces, whose tactical objectives were to secure the bridges and allow a rapid advance by armored units into Northern Germany.",
+          "<img src='img/chapters/operation-market-garden.0.jpg'>",
+          "Several bridges between Eindhoven and Nijmegen were captured at the beginning of the operation but Lieutenant-General Brian Horrocks' XXX Corps ground force advance was delayed by the demolition of a bridge over the Wilhelmina Canal, an extremely overstretched supply line at Son, and failure to capture the main road bridge over the river Waal before 20 September. At Arnhem, the British 1st Airborne Division encountered far stronger resistance than anticipated. In the ensuing battle, only a small force managed to hold one end of the Arnhem road bridge and after the ground forces failed to relieve them, they were overrun on 21 September. The rest of the division, trapped in a small pocket west of the bridge, had to be evacuated on 25 September. The Allies had failed to cross the Rhine in sufficient force and the river remained a barrier to their advance until offensives at Remagen, Oppenheim, Rees and Wesel in March 1945. The failure of Market Garden ended Allied expectations of finishing the war by Christmas 1944."
+        ]
       }
     ],
 

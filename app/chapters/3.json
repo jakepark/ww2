@@ -26,16 +26,26 @@
 
     "pages": [
       {
+        "id": 0,
         "title": "Chapter Resources",
-        "content": "first page"
+        "paragraphs": []
       },
       {
+        "id": 1,
         "title": "Introduction",
-        "content": "second page"
+        "paragraphs": [
+          "The Battle of Leyte Gulf, formerly known as the Second Battle of the Philippine Sea, is generally considered to be the largest naval battle of World War II and, by some criteria, possibly the largest naval battle in history.",
+          "It was fought in waters of the Leyte Gulf, near the Philippine islands of Leyte, Samar and Luzon, from 23–26 October 1944, between combined American and Australian forces and the Imperial Japanese Navy. On 20 October, United States troops invaded the island of Leyte as part of a strategy aimed at isolating Japan from the countries it had occupied in Southeast Asia, and in particular depriving its forces and industry of vital oil supplies. The Imperial Japanese Navy (IJN) mobilized nearly all of its remaining major naval vessels in an attempt to defeat the Allied invasion but was repulsed by the U.S. Navy's 3rd and 7th Fleets. The IJN failed to achieve its objective, suffered very heavy losses, and never sailed to battle in comparable force thereafter. The majority of its surviving heavy ships, deprived of fuel, remained in their bases for the rest of the Pacific War."
+        ]
       },
       {
-        "title": "Third Page",
-        "content": "third page"
+        "id": 2,
+        "title": "Overview",
+        "paragraphs": [
+          "The battle consisted of four separate engagements between the opposing forces: the Battle of the Sibuyan Sea, the Battle of Surigao Strait, the Battle of Cape Engaño and the Battle off Samar, as well as other actions.",
+          "<img src='img/chapters/battle-leyte-gulf.0.jpg'>",
+          "It was the first battle in which Japanese aircraft carried out organized kamikaze attacks. By the time of the battle, Japan had fewer aircraft than the Allied forces had sea vessels, demonstrating the difference in power of the two sides at this point of the war."
+        ]
       }
     ],
 
