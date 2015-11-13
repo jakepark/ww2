@@ -66,8 +66,15 @@
   </div>
 
   <div class="chapter-content">
-    <!-- {{chapter.pages[page].content}} -->
-    <p ng-bind-html="chapter.pages[page].content | nl2br"></p>
+    <div ng-repeat="paragraph in chapter.pages[page].paragraphs">
+      <p ng-bind-html="paragraph | nl2br">{{paragraph}}</p>
+    </div>
+    <!-- {{chapter.pages[page].paragraphs}} -->
+
+    <!-- <p ng-bind-html="chapter.pages[page].content | nl2br"></p>
+    {{chapter.pages[page].content}} -->
+
+
   </div>
 
 
