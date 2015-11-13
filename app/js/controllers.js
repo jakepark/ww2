@@ -17,7 +17,7 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
       $scope.mainImageUrl = chapter.images[0];
       $scope.pages = chapter.pages;
-      
+
 
       $scope.page = 0;
       if ($routeParams.pageId){

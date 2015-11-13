@@ -147,13 +147,25 @@ body {
   display: flex;
   justify-content: space-between;
   position: relative;
-  top: 55%;
+  top: 52%;
   left: 10%;
 
 }
 
 .sidebar-link {
   float: left;
+}
+
+.link_x:after {
+  content: "\26AB"
+}
+
+.link_o:after {
+  content: "\26AA"
+}
+
+.toggleShowEnd {
+  margin: 0px 0px 0px 96px;
 }
 
 /** Detail View **/

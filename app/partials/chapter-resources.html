@@ -12,14 +12,24 @@
   </div>
 
   <div class="sidebar-links group">
-    <div class="sidebar-link" ng-repeat="page in chapter.pages">
-      <a href="#/chapters/{{chapter.id}}/{{page.id}}">o</a>
+    <div class="sidebar-link" ng-repeat="link in chapter.pages">
+      <a class="link_x" href="#/chapters/{{chapter.id}}/{{link.id}}"
+         ng-show="link.id === page"></a>
+      <a class="link_o" href="#/chapters/{{chapter.id}}/{{link.id}}"
+         ng-show="link.id !== page"></a>
     </div>
   </div>
 
   <div class="sidebar-bottom">
-    Biographies
-    Endnotes
+    <a class="toggleHideEnd" href ng-click="toggleEndnotes = !toggleEndnotes"
+      ng-show="!toggleEndnotes">^</a>
+    <a class="toggleShowEnd" href ng-click="toggleEndnotes = !toggleEndnotes"
+      ng-show="toggleEndnotes">v</a>
+
+    <div class="sidebar-bottom-links" ng-hide="toggleEndnotes">
+      Biographies
+      Endnotes
+    </div>
   </div>
 </div>
 
