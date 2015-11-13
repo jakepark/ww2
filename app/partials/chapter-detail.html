@@ -17,7 +17,14 @@
     </div>
   </div>
 
-  <div class="sidebar-bottom">
+
+  <a class="toggleHideEnd" href ng-click="toggleEndnotes = !toggleEndnotes"
+    ng-show="!toggleEndnotes">^</a>
+  <a class="toggleShowEnd" href ng-click="toggleEndnotes = !toggleEndnotes"
+    ng-show="toggleEndnotes">v</a>
+
+
+  <div class="sidebar-bottom" ng-hide="toggleEndnotes">
     Biographies
     Endnotes
   </div>
