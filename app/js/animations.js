@@ -1,4 +1,4 @@
-angular.module('ww2Animations', ['ngAnimate']);
+var ww2Animations = angular.module('ww2Animations', ['ngAnimate']);
 
 ww2Animations.animation('.chapter', function(){
 
