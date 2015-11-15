@@ -180,6 +180,7 @@ body {
 
 .page-navbar .links {
   float: right;
+  margin: 0 200px 0;
 }
 
 .page-navbar .prev {
