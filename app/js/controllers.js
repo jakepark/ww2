@@ -41,6 +41,19 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
       $scope.mainImageUrl = imageUrl;
     };
 
+    $scope.navbarLeft = function() {
+      var navbar = angular.element(document.querySelector(".chapter-container"));
+      navbar.removeClass('shift-right');
+      navbar.addClass('shift-left');
+    }
+
+    $scope.navbarRight = function() {
+      var navbar = angular.element(document.querySelector(".chapter-container"));
+      navbar.removeClass('shift-left');
+      navbar.addClass('shift-right');
+
+    }
+
 
   }
 ]);

@@ -34,13 +34,13 @@
 </div>
 
 
-<div class="chapter-container group">
+<div class="chapter-container group shift-right">
 
   <div class="page-navbar">
 
-    <a class="toggleHide" href ng-click="toggleSidebar = !toggleSidebar"
+    <a class="toggleHide" href ng-click="toggleSidebar = !toggleSidebar; navbarLeft()"
       ng-show="!toggleSidebar"><</a>
-    <a class="toggleShow" href ng-click="toggleSidebar = !toggleSidebar"
+    <a class="toggleShow" href ng-click="toggleSidebar = !toggleSidebar; navbarRight()"
       ng-show="toggleSidebar">></a>
 
 
