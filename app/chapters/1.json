@@ -3,10 +3,7 @@
     "date_end": "1944-09-25",
     "description": "Successful invasion of German-occupied Western Europe",
     "id": 1,
-    "images": [
-        "img/chapters/operation-overlord.0.jpg"
 
-    ],
     "name": "Operation Overlord",
 
     "victor": {
@@ -42,9 +39,19 @@
         "title": "Overview",
         "paragraphs": [
           "The decision to undertake a cross-channel invasion in 1944 was taken at the Trident Conference in Washington in May 1943. General Dwight D. Eisenhower was appointed commander of Supreme Headquarters Allied Expeditionary Force (SHAEF), and General Bernard Montgomery was named as commander of the 21st Army Group, which comprised all the land forces involved in the invasion. The Normandy coast was chosen as the site of the invasion, with the Americans assigned to land at Utah and Omaha Beaches, the British at Sword and Gold Beaches, and Canadians at Juno Beach. To meet the conditions expected on the Normandy beachhead, special technology was developed, including two artificial ports called Mulberry harbours and an array of specialised tanks nicknamed Hobart's Funnies. In the months leading up to the invasion, the Allies conducted a substantial military deception, Operation Bodyguard, using both electronic and visual misinformation. This misled the Germans as to the date and location of the main Allied landings. Adolf Hitler placed German Field Marshal Erwin Rommel in charge of developing fortifications all along the Atlantic Wall in anticipation of an invasion.",
-          "<img src='img/chapters/operation-overlord.0.jpg'>",
           "The Allies failed to reach their goals for the first day, but gained a tenuous foothold that they gradually expanded as they captured the port at Cherbourg on 26 June and the city of Caen on 21 July. A failed counterattack by German forces on 8 August led to 50,000 soldiers of the German 7th Army being trapped in the Falaise pocket. The Allies launched an invasion of southern France (Operation Dragoon) on 15 August, and the Liberation of Paris followed on 25 August. German forces retreated across the Seine on 30 August 1944, marking the close of Operation Overlord.",
           "'Overlord' was the name assigned to the establishment of a large-scale lodgement on the Continent. The first phase, the amphibious invasion and establishment of a secure foothold, was codenamed Operation Neptune. To gain the required air superiority needed to ensure a successful invasion, the Allies launched a bombing campaign (codenamed Operation Pointblank) to target German aircraft production, fuel supplies, and airfields. Under the Transport Plan, communications infrastructure and road and rail links were bombed to cut off the north of France and make it more difficult to bring up reinforcements. These attacks were widespread so as to avoid revealing the exact location of the invasion. Elaborate deceptions were planned to prevent the Germans from determining the timing and location of the invasion."
+        ],
+        "images": [
+          "img/chapters/operation-overlord.0.jpg"
+
+        ],
+
+        "order": [
+          {"paragraphs": 0},
+          {"images": 0},
+          {"paragraphs": 1},
+          {"paragraphs": 2}
         ]
       }
     ],

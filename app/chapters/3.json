@@ -3,11 +3,7 @@
     "date_end": "1944-10-26",
     "description": "Largest naval battle of WW2",
     "id": 3,
-    "images": [
-        "img/chapters/battle-leyte-gulf.0.jpg",
-        "img/chapters/battle-leyte-gulf.1.jpg",
-        "img/chapters/battle-leyte-gulf.2.jpg"
-    ],
+
     "name": "The Battle of Leyte Gulf",
 
     "victor": {
@@ -43,8 +39,20 @@
         "title": "Overview",
         "paragraphs": [
           "The battle consisted of four separate engagements between the opposing forces: the Battle of the Sibuyan Sea, the Battle of Surigao Strait, the Battle of Cape Engaño and the Battle off Samar, as well as other actions.",
-          "<img src='img/chapters/battle-leyte-gulf.0.jpg'>",
           "It was the first battle in which Japanese aircraft carried out organized kamikaze attacks. By the time of the battle, Japan had fewer aircraft than the Allied forces had sea vessels, demonstrating the difference in power of the two sides at this point of the war."
+        ],
+        "images": [
+            "img/chapters/battle-leyte-gulf.0.jpg",
+            "img/chapters/battle-leyte-gulf.1.jpg",
+            "img/chapters/battle-leyte-gulf.2.jpg"
+        ],
+        "order": [
+          {"paragraphs": 0},
+          {"images": 0},
+          {"paragraphs": 1},
+          {"images": 1},
+          {"paragraphs": 2},
+          {"images": 2}
         ]
       }
     ],

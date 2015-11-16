@@ -15,7 +15,7 @@ ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
 ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapter',
   function($scope, $routeParams, Chapter) {
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
-      $scope.mainImageUrl = chapter.images[0];
+      // $scope.mainImageUrl = chapter.images[0];
       $scope.pages = chapter.pages;
 
 
@@ -37,9 +37,9 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
     });
 
 
-    $scope.setImage = function(imageUrl){
-      $scope.mainImageUrl = imageUrl;
-    };
+    // $scope.setImage = function(imageUrl){
+    //   $scope.mainImageUrl = imageUrl;
+    // };
 
     $scope.navbarLeft = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
