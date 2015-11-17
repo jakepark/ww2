@@ -78,7 +78,10 @@
     </div> -->
 
     <div ng-repeat="object in chapter.pages[page].order">
-      {{object}}
+      <div ng-repeat="(key, value) in object">
+        {{chapter.pages[page][key][value]}}
+        <!-- {{chapter.pages[page].paragraphs[value]}} -->
+      </div>
     </div>
 
 
