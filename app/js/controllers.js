@@ -44,13 +44,21 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
     $scope.navbarLeft = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
       navbar.removeClass('shift-right');
-      navbar.addClass('shift-left');
+      navbar.addClass('shift-none');
+
+      var navright = angular.element(document.querySelector(".pageNext"));
+      navright.removeClass('shift-left');
+      navright.addClass('shift-none');
     }
 
     $scope.navbarRight = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
-      navbar.removeClass('shift-left');
+      navbar.removeClass('shift-none');
       navbar.addClass('shift-right');
+
+      var navright = angular.element(document.querySelector(".pageNext"));
+      navright.removeClass('shift-none');
+      navright.addClass('shift-left');
 
     }
 

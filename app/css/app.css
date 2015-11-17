@@ -284,11 +284,15 @@ div.chapter-container{
 
 }
 
+.shift-left{
+  padding: 0 200px 0 0;
+}
+
 .shift-right{
   padding: 0 0 0 200px;
 }
 
-.shift-left{
+.shift-none {
   padding: 0 0 0 0;
 }
 
