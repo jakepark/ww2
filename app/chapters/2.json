@@ -31,6 +31,9 @@
         "title": "Introduction",
         "paragraphs": [
           "Operation Market Garden (17–25 September 1944) was an unsuccessful Allied military operation, fought in the Netherlands and Germany in the Second World War. It was the largest airborne operation up to that time."
+        ],
+        "order": [
+          {"paragraphs": 0}
         ]
       },
       {
