@@ -13,6 +13,7 @@
     "angular-route": "1.4.x",
     "angular-resource": "1.4.x",
     "angular-animate": "1.4.x",
-    "angular-sanitize": "1.4.x"
+    "angular-sanitize": "1.4.x",
+    "ng-dialog": "0.5.x"
   }
 }

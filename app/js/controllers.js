@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize']);
+var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize', 'ngDialog']);
 
 
 ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
@@ -12,12 +12,21 @@ ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
   }
 ]);
 
-ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapter',
-  function($scope, $routeParams, Chapter) {
+ww2Controllers.controller('ChapterDetailCtrl',
+  ['$scope', '$routeParams', 'Chapter', 'ngDialog',
+
+  function($scope, $routeParams, Chapter, ngDialog) {
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
-      // $scope.mainImageUrl = chapter.images[0];
       $scope.pages = chapter.pages;
 
+      $scope.clickToOpen = function(){
+
+        ngDialog.open({ template: 'partials/image.html'})
+      }
+
+      $scope.debug = function(){
+        debugger
+      };
 
       $scope.page = 0;
       if ($routeParams.pageId){
@@ -37,9 +46,6 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
     });
 
 
-    // $scope.setImage = function(imageUrl){
-    //   $scope.mainImageUrl = imageUrl;
-    // };
 
     $scope.navbarLeft = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
@@ -59,9 +65,12 @@ ww2Controllers.controller('ChapterDetailCtrl', ['$scope', '$routeParams', 'Chapt
       var navright = angular.element(document.querySelector(".pageNext"));
       navright.removeClass('shift-none');
       navright.addClass('shift-left');
-
     }
 
+    // $scope.mainImageUrl = chapter.images[0];
+    // $scope.setImage = function(imageUrl){
+    //   $scope.mainImageUrl = imageUrl;
+    // };
 
   }
 ]);

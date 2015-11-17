@@ -80,7 +80,7 @@
 
     <div ng-repeat="object in chapter.pages[page].order">
       <div ng-repeat="(key, value) in object">
-        <para-img>
+        <para-img ng-click='clickToOpen()'>
           <!-- {{chapter.pages[page][key][value]}} -->
         </para-img>
         <!-- {{chapter.pages[page].paragraphs[value]}} -->
