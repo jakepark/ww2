@@ -69,20 +69,24 @@
   </div>
 
   <div class="chapter-content">
-    <!-- <div ng-repeat="paragraph in chapter.pages[page].paragraphs">
-      <p ng-bind-html="paragraph | nl2br">{{paragraph}}</p>
-    </div> -->
-
-    <!-- <div ng-repeat="image in chapter.pages[page].images">
-      <img src='{{image}}'>
-    </div> -->
 
 
     <div ng-repeat="object in chapter.pages[page].order">
       <div ng-repeat="(key, value) in object">
-        <para-img ng-click='clickToOpen()'>
+        <para-img ng-click="toggleModal()">
           <!-- {{chapter.pages[page][key][value]}} -->
         </para-img>
+
+        <modal-dialog show='modalShown' width='400px' height='60%'>
+          {{chapter.pages[page][key][value]}}
+        </modal-dialog>
+
+    <!-- <div ng-repeat="paragraph in chapter.pages[page].paragraphs">
+      <p ng-bind-html="paragraph | nl2br">{{paragraph}}</p>
+    </div> -->
+    <!-- <div ng-repeat="image in chapter.pages[page].images">
+      <img src='{{image}}'>
+    </div> -->
         <!-- {{chapter.pages[page].paragraphs[value]}} -->
       </div>
     </div>

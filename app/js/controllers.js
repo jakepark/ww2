@@ -19,6 +19,12 @@ ww2Controllers.controller('ChapterDetailCtrl',
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
       $scope.pages = chapter.pages;
 
+      $scope.modalShown = false;
+      $scope.toggleModal = function() {
+        $scope.modalShown = !$scope.modalShown;
+      };
+
+
       $scope.clickToOpen = function(){
 
         ngDialog.open({ template: 'partials/image.html'})
