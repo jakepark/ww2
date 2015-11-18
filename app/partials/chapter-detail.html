@@ -72,14 +72,23 @@
 
 
     <div ng-repeat="object in chapter.pages[page].order">
-      <div ng-repeat="(key, value) in object" ng-click="check(key)">
-        <para-img>
-          <!-- {{chapter.pages[page][key][value]}} -->
-        </para-img>
 
-        <modal-dialog show='modalShown' width='400px' height='60%'>
+      <div ng-repeat="(key, value) in object" >
+
+        <div ng-if="key === 'paragraphs'">
+          <p>{{chapter.pages[page][key][value]}}</p>
+        </div>
+        <div ng-if="key === 'images'" ng-click="toggleModal()">
+          <modal-dialog show='modalShown' width='60%' height='80%'>
+            <img class='full-img' src='{{chapter.pages[page][key][value]}}'>
+          </modal-dialog>
+          <img src='{{chapter.pages[page][key][value]}}'>
+        </div>
+
+        <!-- <para-img>
           {{chapter.pages[page][key][value]}}
-        </modal-dialog>
+        </para-img> -->
+
 
     <!-- <div ng-repeat="paragraph in chapter.pages[page].paragraphs">
       <p ng-bind-html="paragraph | nl2br">{{paragraph}}</p>

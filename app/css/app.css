@@ -207,6 +207,15 @@ body {
 
 }
 
+/*content modal*/
+
+.chapter-content .full-img {
+  max-height: 100%
+}
+
+
+
+
 .page-footer{
   font-style: italic;
   margin: 20px;
