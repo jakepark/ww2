@@ -198,7 +198,11 @@ body {
   margin-top: 88px;
 }
 
-.chapter-content .para {
+.chapter-content img {
+  max-height: 300px;
+}
+
+.chapter-content p {
   /*float: left;*/
 
 }
@@ -387,7 +391,7 @@ h1 {
   width:100%;
   height:100%;
   background-color:#000000;
-  opacity: 0.8;
+  opacity: 0.5;
 }
 .ng-modal-dialog {
   /* A centered div above the overlay with a box shadow. */

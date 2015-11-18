@@ -72,8 +72,8 @@
 
 
     <div ng-repeat="object in chapter.pages[page].order">
-      <div ng-repeat="(key, value) in object">
-        <para-img ng-click="toggleModal()">
+      <div ng-repeat="(key, value) in object" ng-click="check(key)">
+        <para-img>
           <!-- {{chapter.pages[page][key][value]}} -->
         </para-img>
 

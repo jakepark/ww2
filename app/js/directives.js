@@ -46,7 +46,7 @@ ww2Controllers.directive('modalDialog', function() {
       show: '='
     },
     replace: true,
-    transclude: true, 
+    transclude: true,
     link: function(scope, element, attrs) {
       scope.dialogStyle = {};
       if (attrs.width)

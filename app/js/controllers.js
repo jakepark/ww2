@@ -24,6 +24,12 @@ ww2Controllers.controller('ChapterDetailCtrl',
         $scope.modalShown = !$scope.modalShown;
       };
 
+      $scope.check = function(key) {
+        if (key === 'images'){
+          $scope.toggleModal();
+        }
+      }
+
 
       $scope.clickToOpen = function(){
 
