@@ -70,19 +70,23 @@
 
   <div class="chapter-content">
 
-
     <div ng-repeat="object in chapter.pages[page].order">
-
       <div ng-repeat="(key, value) in object" >
 
         <div ng-if="key === 'paragraphs'">
           <p>{{chapter.pages[page][key][value]}}</p>
         </div>
-        <div ng-if="key === 'images'" ng-click="toggleModal()">
+
+        <div ng-if="key === 'images'"
+             ng-controller='ModalCtrl'
+             ng-click="toggleModal()">
+
           <modal-dialog show='modalShown' width='60%' height='80%'>
-            <img class='full-img' src='{{chapter.pages[page][key][value]}}'>
+            <img class='full-img' ng-src='{{chapter.pages[page][key][value]}}' >
+
           </modal-dialog>
-          <img src='{{chapter.pages[page][key][value]}}'>
+          <img ng-src='{{chapter.pages[page][key][value]}}'>
+
         </div>
 
         <!-- <para-img>
@@ -99,7 +103,6 @@
         <!-- {{chapter.pages[page].paragraphs[value]}} -->
       </div>
     </div>
-
 
 
   </div>

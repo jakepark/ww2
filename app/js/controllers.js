@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize', 'ngDialog']);
+var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize']);
 
 
 ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
@@ -13,25 +13,11 @@ ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
 ]);
 
 ww2Controllers.controller('ChapterDetailCtrl',
-  ['$scope', '$routeParams', 'Chapter', 'ngDialog',
+  ['$scope', '$routeParams', 'Chapter',
 
-  function($scope, $routeParams, Chapter, ngDialog) {
+  function($scope, $routeParams, Chapter) {
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
       $scope.pages = chapter.pages;
-
-      $scope.modalShown = false;
-      $scope.toggleModal = function() {
-        $scope.modalShown = !$scope.modalShown;
-      };
-
-      $scope.clickToOpen = function(){
-
-        ngDialog.open({ template: 'partials/image.html'})
-      }
-
-      $scope.debug = function(){
-        debugger
-      };
 
       $scope.page = 0;
       if ($routeParams.pageId){
@@ -49,8 +35,6 @@ ww2Controllers.controller('ChapterDetailCtrl',
       }
 
     });
-
-
 
     $scope.navbarLeft = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
@@ -79,3 +63,10 @@ ww2Controllers.controller('ChapterDetailCtrl',
 
   }
 ]);
+
+ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
+  $scope.modalShown = false;
+  $scope.toggleModal = function() {
+    $scope.modalShown = !$scope.modalShown;
+  };
+}]);
