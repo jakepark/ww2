@@ -69,4 +69,8 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
   };
+
+
+  
+
 }]);

@@ -79,13 +79,23 @@
 
         <div ng-if="key === 'images'"
              ng-controller='ModalCtrl'
-             ng-click="toggleModal()">
+             ng-click="toggleModal()"
+             >
+
+          <div data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
+
+            <img ng-src='{{selectedImage[0].src}}'>
+          </div>
 
           <modal-dialog show='modalShown' width='60%' height='80%'>
-            <img class='full-img' ng-src='{{chapter.pages[page][key][value]}}' >
+            {{selectedImage[0].title}}
+            <img class='full-img' ng-src='{{selectedImage[0].src}}' >
+            {{selectedImage[0].caption}}
+
 
           </modal-dialog>
-          <img ng-src='{{chapter.pages[page][key][value]}}'>
+
+
 
         </div>
 
