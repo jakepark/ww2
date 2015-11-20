@@ -44,13 +44,18 @@
           "Several bridges between Eindhoven and Nijmegen were captured at the beginning of the operation but Lieutenant-General Brian Horrocks' XXX Corps ground force advance was delayed by the demolition of a bridge over the Wilhelmina Canal, an extremely overstretched supply line at Son, and failure to capture the main road bridge over the river Waal before 20 September. At Arnhem, the British 1st Airborne Division encountered far stronger resistance than anticipated. In the ensuing battle, only a small force managed to hold one end of the Arnhem road bridge and after the ground forces failed to relieve them, they were overrun on 21 September. The rest of the division, trapped in a small pocket west of the bridge, had to be evacuated on 25 September. The Allies had failed to cross the Rhine in sufficient force and the river remained a barrier to their advance until offensives at Remagen, Oppenheim, Rees and Wesel in March 1945. The failure of Market Garden ended Allied expectations of finishing the war by Christmas 1944."
         ],
         "images": [
-            "img/chapters/operation-market-garden.0.jpg",
-            "img/chapters/operation-market-garden.1.jpg",
-            "img/chapters/omg.1.jpg",
-            "img/chapters/omg.2.jpg",
-            "img/chapters/omg.3.jpg",
-            "img/chapters/omg.4.jpg",
-            "img/chapters/omg.5.jpg"
+          {
+            "id": 0,
+            "src": "img/chapters/operation-market-garden.0.jpg",
+            "title": "title1",
+            "caption": "caption1"
+          },
+          {
+            "id": 1,
+            "src": "img/chapters/operation-market-garden.1.jpg",
+            "title": "title2",
+            "caption": "caption2"
+          }
 
         ],
         "order": [

@@ -46,7 +46,14 @@
           "'Overlord' was the name assigned to the establishment of a large-scale lodgement on the Continent. The first phase, the amphibious invasion and establishment of a secure foothold, was codenamed Operation Neptune. To gain the required air superiority needed to ensure a successful invasion, the Allies launched a bombing campaign (codenamed Operation Pointblank) to target German aircraft production, fuel supplies, and airfields. Under the Transport Plan, communications infrastructure and road and rail links were bombed to cut off the north of France and make it more difficult to bring up reinforcements. These attacks were widespread so as to avoid revealing the exact location of the invasion. Elaborate deceptions were planned to prevent the Germans from determining the timing and location of the invasion."
         ],
         "images": [
-          "img/chapters/operation-overlord.0.jpg"
+          {
+            "id": 0,
+            "src": "img/chapters/operation-overlord.0.jpg",
+            "title": "title1",
+            "caption": "caption1"
+
+          }
+
 
         ],
 
