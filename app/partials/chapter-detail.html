@@ -83,14 +83,13 @@
              >
 
           <div data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
-
-            <img ng-src='{{selectedImage[0].src}}'>
+            <img class='modal-thumb-img' ng-src='{{selectedImage[0].src}}'>
           </div>
 
-          <modal-dialog show='modalShown' width='60%' height='80%'>
-            {{selectedImage[0].title}}
-            <img class='full-img' ng-src='{{selectedImage[0].src}}' >
-            {{selectedImage[0].caption}}
+          <modal-dialog show='modalShown' width='90%' height='90%'>
+            <h2 class='modal-title'>{{selectedImage[0].title}}</h2>
+              <img class='modal-full-img' ng-src='{{selectedImage[0].src}}' >
+            <p class='modal-caption'>{{selectedImage[0].caption}}</p>
 
 
           </modal-dialog>

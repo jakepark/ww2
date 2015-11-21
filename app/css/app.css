@@ -199,8 +199,12 @@ body {
   margin-top: 88px;
 }
 
-.chapter-content img {
+.chapter-content .modal-thumb-img {
   max-height: 300px;
+  cursor: pointer;
+}
+
+img {
   cursor: pointer;
 }
 
@@ -209,14 +213,27 @@ body {
 
 }
 
-/*content modal*/
+/* START MODAL CONTENT */
 
-.chapter-content .full-img {
-  max-height: 800px
+.ng-modal-dialog .modal-full-img {
+  margin: 0 auto;
+  display: block;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
 }
 
 
+.ng-modal-dialog .modal-title {
+  text-align: center;
+}
 
+.ng-modal-dialog .modal-caption {
+  text-align: center;
+}
+
+
+/*END MODAL CONTENT */
 
 .page-footer{
   font-style: italic;
