@@ -42,26 +42,28 @@
         "title": "Overview",
         "paragraphs": [
           "The battle consisted of four separate engagements between the opposing forces: the Battle of the Sibuyan Sea, the Battle of Surigao Strait, the Battle of Cape Engaño and the Battle off Samar, as well as other actions.",
-          "It was the first battle in which Japanese aircraft carried out organized kamikaze attacks. By the time of the battle, Japan had fewer aircraft than the Allied forces had sea vessels, demonstrating the difference in power of the two sides at this point of the war."
+          "It was the first battle in which Japanese aircraft carried out organized kamikaze attacks. By the time of the battle, Japan had fewer aircraft than the Allied forces had sea vessels, demonstrating the difference in power of the two sides at this point of the war.",
+          "Crossing the T off Samar.",
+          "US airpower ensured victory in a perilous situation."
         ],
         "images": [
           {
             "id": 0,
             "src": "img/chapters/battle-leyte-gulf.0.jpg",
-            "title": "title1",
-            "caption": "caption1"
+            "title": "The four main actions in the battle of Leyte Gulf",
+            "caption": "1: Battle of the Sibuyan Sea, 2: Battle of Surigao Strait, 3: Battle off Cape Engaño, 4: Battle off Samar. Leyte Gulf is north of 2 and west of 4. The island of Leyte is west of the gulf."
           },
           {
             "id": 1,
             "src": "img/chapters/battle-leyte-gulf.1.jpg",
-            "title": "title2",
-            "caption": "caption2"
+            "title": "Battle of Surigao Strait",
+            "caption": "US Navy battleships were able to cross the T of Imperial Japanese Navy forces. This was the last successful maneuver of this type, in which all firepower was able to concentrate on the lead ship of an enemy battle line."
           },
           {
             "id": 2,
             "src": "img/chapters/battle-leyte-gulf.2.jpg",
-            "title": "title3",
-            "caption": "caption3"
+            "title": "Battle off Samar",
+            "caption": "IJN fleet of 4 battleships, 6 heavy cruisers, 2 light criusers, and 11 destroyers engaged with USN forces consisting of 6 escort carriers, 3 destroyers, 4 destroyer escorts, and ultimately 400 aircraft. The US support ships managed to prevent the Japanese fleet from attacking the underdefended escort carriers, and in turn allowed aircraft from the carrier groups to repel the IJN force with major losses."
           }
         ],
         "order": [
@@ -69,7 +71,10 @@
           {"images": 0},
           {"paragraphs": 1},
           {"images": 1},
-          {"images": 2}
+          {"paragraphs": 2},
+          {"images": 2},
+          {"paragraphs": 3}
+
         ]
       }
     ],
