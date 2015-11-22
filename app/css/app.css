@@ -172,6 +172,12 @@ body {
 
 /** Detail View **/
 
+p {
+  letter-spacing: .04em;
+  line-height: 1.75em;
+  text-align: justify;
+}
+
 .page-navbar{
   padding: 20px;
   font-size: 32px;
@@ -202,6 +208,8 @@ body {
 .chapter-content .modal-thumb-img {
   max-height: 300px;
   cursor: pointer;
+  float: left;
+  margin: 20px;
 }
 
 img {
