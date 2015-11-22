@@ -4,7 +4,7 @@
       "date_start": "1944-06-06",
       "date_end": "1944-08-30",
       "id": 1,
-      "imageUrl": "img/chapters/operation-overlord.0.jpg",
+      "imageUrl": "chapters/images/operation-overlord.0.jpg",
       "name": "Operation Overlord",
       "snippet": "Successful invasion of German-occupied Western Europe"
   },
@@ -14,7 +14,7 @@
     "date_start": "1944-09-17",
     "date_end": "1944-09-25",
     "id": 2,
-    "imageUrl": "img/chapters/operation-market-garden.0.jpg",
+    "imageUrl": "chapters/images/operation-market-garden.0.jpg",
     "name": "Operation Market Garden",
     "snippet": "High risk operation to cross the Rhine and enter Germany"
   },
@@ -24,7 +24,7 @@
     "date_start": "1944-10-23",
     "date_end": "1944-10-26",
     "id": 3,
-    "imageUrl": "img/chapters/battle-leyte-gulf.0.jpg",
+    "imageUrl": "chapters/images/battle-leyte-gulf.0.jpg",
     "name": "Battle of Leyte Gulf",
     "snippet": "Largest naval battle of WW2"
 

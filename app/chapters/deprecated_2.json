@@ -4,9 +4,9 @@
     "description": "Classic example of small unit tactics overcoming larger enemy force",
     "id": 2,
     "images": [
-        "img/chapters/brecourt-manor-assault.0.jpg",
-        "img/chapters/brecourt-manor-assault.1.gif",
-        "img/chapters/brecourt-manor-assault.2.gif"
+        "chapters/images/brecourt-manor-assault.0.jpg",
+        "chapters/images/brecourt-manor-assault.1.gif",
+        "chapters/images/brecourt-manor-assault.2.gif"
     ],
     "name": "Brecourt Manor Assault",
 

@@ -49,19 +49,19 @@
         "images": [
           {
             "id": 0,
-            "src": "img/chapters/battle-leyte-gulf.0.jpg",
+            "src": "chapters/images/battle-leyte-gulf.0.jpg",
             "title": "The four main actions in the battle of Leyte Gulf",
             "caption": "1: Battle of the Sibuyan Sea, 2: Battle of Surigao Strait, 3: Battle off Cape Engaño, 4: Battle off Samar. Leyte Gulf is north of 2 and west of 4. The island of Leyte is west of the gulf."
           },
           {
             "id": 1,
-            "src": "img/chapters/battle-leyte-gulf.1.jpg",
+            "src": "chapters/images/battle-leyte-gulf.1.jpg",
             "title": "Battle of Surigao Strait",
             "caption": "US Navy battleships were able to cross the T of Imperial Japanese Navy forces. This was the last successful maneuver of this type, in which all firepower was able to concentrate on the lead ship of an enemy battle line."
           },
           {
             "id": 2,
-            "src": "img/chapters/battle-leyte-gulf.2.jpg",
+            "src": "chapters/images/battle-leyte-gulf.2.jpg",
             "title": "Battle off Samar",
             "caption": "IJN fleet of 4 battleships, 6 heavy cruisers, 2 light criusers, and 11 destroyers engaged with USN forces consisting of 6 escort carriers, 3 destroyers, 4 destroyer escorts, and ultimately 400 aircraft. The US support ships managed to prevent the Japanese fleet from attacking the underdefended escort carriers, and in turn allowed aircraft from the carrier groups to repel the IJN force with major losses."
           }
