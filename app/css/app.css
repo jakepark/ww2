@@ -172,12 +172,6 @@ body {
 
 /** Detail View **/
 
-p {
-  letter-spacing: .04em;
-  line-height: 1.75em;
-  text-align: justify;
-}
-
 .page-navbar{
   padding: 20px;
   font-size: 32px;
@@ -205,21 +199,40 @@ p {
   margin-top: 88px;
 }
 
+.chapter-content p {
+  letter-spacing: .04em;
+  line-height: 1.75em;
+  text-align: justify;
+}
+
 .chapter-content .modal-thumb-img {
   max-height: 300px;
-  cursor: pointer;
-  float: left;
+  display: block;
+}
+
+.div-modal-thumb {
   margin: 20px;
+  float: left;
+}
+
+h3.modal-thumb-title  {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline-block;
+  float: left;
+  margin: 5px;
+}
+
+
+p.modal-thumb-title {
+  font-size: 12px;
+  margin: 1px 0 0 0;
 }
 
 img {
   cursor: pointer;
 }
 
-.chapter-content p {
-  /*float: left;*/
-
-}
 
 /* START MODAL CONTENT */
 
