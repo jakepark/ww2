@@ -17,8 +17,9 @@
 	</head>
 
 	<body>
-    
-		<script src="three.min.js"></script>
+
+		<script src="viewer/three.min.js"></script>
+  	<script src="viewer/TrackballControls.js"></script>
 
 		<script>
 
@@ -27,7 +28,7 @@
 
 			var container;
 
-			var camera, scene;
+			var camera, scene, cameraControls;
 			var canvasRenderer, webglRenderer;
 
 			var mesh, zmesh, geometry;
@@ -36,6 +37,8 @@
 			var windowHalfY = window.innerHeight / 2;
 
 			var meshes = [];
+
+			var clock = new THREE.Clock();
 
 			init();
 			animate();
@@ -52,6 +55,9 @@
 
 				scene = new THREE.Scene();
 
+
+
+
 				// LIGHTS
 				var ambient = new THREE.AmbientLight(0x666666);
 				scene.add(ambient);
@@ -66,6 +72,12 @@
 				webglRenderer.domElement.style.position = "relative";
 
 				container.appendChild(webglRenderer.domElement);
+
+
+				// CAMERA CONTROLS
+
+				cameraControls = new THREE.TrackballControls(camera, webglRenderer.domElement);
+				cameraControls.target.set(0, 0, 0);
 
 				var loader = new THREE.JSONLoader(),
 				// callbackKey = function(geometry) {createScene(geometry,  0, 0, 0, 15, "green.jpg")};
@@ -98,11 +110,15 @@
 			}
 
 			function animate() {
-				for(var i = 0; i < meshes.length; i++){
-					meshes[i].rotation.y += .01;
-				}
-				requestAnimationFrame(animate);
+				var delta = clock.getDelta();
+
+        requestAnimationFrame(animate);
+
+        cameraControls.update(delta);
+
+
 				render();
+        stats.update();
 			}
 
 			function render() {
