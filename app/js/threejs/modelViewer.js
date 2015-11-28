@@ -1,4 +1,4 @@
-
+debugger
 var SCREEN_WIDTH = window.innerWidth;
 var SCREEN_HEIGHT = window.innerHeight;
 
@@ -60,7 +60,7 @@ function init() {
 	// loader.load("p51.0.js", callbackKey);
 
 	callbackKey = function(geometry, materials) {createScene(geometry, materials, 0, 0, 0, 15 )};
-	loader.load("assets/models/p51.js", callbackKey);
+	loader.load("chapters/models/p51/p51.js", callbackKey);
 
 	window.addEventListener('resize', onWindowResize, false);
 

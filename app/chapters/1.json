@@ -53,15 +53,22 @@
             "caption": "Men and materiel being offloaded from tank landing ships once the beachheads were secure."
 
           }
-
-
+        ],
+        "models": [
+          {
+            "id": 0,
+            "src": "chapters/models/p51/p51.2.png",
+            "title": "P51D Mustang",
+            "caption": "Fine long range escort fighter and close air support"
+          }
         ],
 
         "order": [
           {"paragraphs": 0},
           {"images": 0},
           {"paragraphs": 1},
-          {"paragraphs": 2}
+          {"paragraphs": 2},
+          {"models": 0}
         ]
       }
     ],
