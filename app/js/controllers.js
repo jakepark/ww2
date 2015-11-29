@@ -71,6 +71,9 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   };
 
 
-  
+  $scope.view3dModel = function(){
+    $scope.templateURL = 'partials/model-detail.html'
+  }
+
 
 }]);

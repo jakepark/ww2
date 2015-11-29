@@ -1,26 +1,9 @@
-<!doctype html>
-<html lang="en">
-	<head>
-		<title>3D model detail view using ThreeJS</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-		<style>
-			body {
-				background:#fff;
-				padding:0;
-				margin:0;
-				overflow:hidden;
-				font-family:georgia;
-				text-align:center;
-			}
-		</style>
-	</head>
-
-	<body>
-
-		<script src="viewer/three.min.js"></script>
-  	<script src="viewer/TrackballControls.js"></script>
-		<script src="viewer/modelViewer.js"></script>
-
-	</body>
-</html>
+<div class='ng-modal' ng-show='show'>
+	<div class='ng-modal-overlay'>
+	</div>
+	<div class='ng-modal-dialog' ng-style='dialogStyle'>
+		<div class='ng-modal-dialog-content' ng-transclude>
+			<script src="js/threejs/modelViewer.js"></script>
+		</div>
+	</div>
+</div>

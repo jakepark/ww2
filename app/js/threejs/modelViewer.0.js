@@ -1,10 +1,8 @@
-// var SCREEN_WIDTH = window.innerWidth;
-// var SCREEN_HEIGHT = window.innerHeight;
 
-var SCREEN_WIDTH = 900;
-var SCREEN_HEIGHT = 600;
+var SCREEN_WIDTH = window.innerWidth;
+var SCREEN_HEIGHT = window.innerHeight;
 
-var container, parent;
+var container;
 
 var camera, scene, cameraControls;
 var canvasRenderer, webglRenderer;
@@ -23,14 +21,9 @@ animate();
 
 function init() {
 	container = document.createElement('div');
-	container.className = "model-container"
+	document.body.appendChild(container);
 
-	// document.body.appendChild(container);
-
-	parent = document.getElementById('modelView');
-	parent.appendChild(container);
 	// container = document.getElementById('modelView');
-
 
 	camera = new THREE.PerspectiveCamera(75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 100000);
 	camera.position.x = 400;
@@ -56,7 +49,7 @@ function init() {
 	webglRenderer.domElement.style.position = "relative";
 
 	// container.appendChild(webglRenderer.domElement);
-	container.appendChild(webglRenderer.domElement);
+		container.appendChild(webglRenderer.domElement);
 
 
 	// CAMERA CONTROLS

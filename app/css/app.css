@@ -254,6 +254,10 @@ img {
 }
 
 
+.ng-modal-dialog .model-container {
+  text-align: center;
+}
+
 /*END MODAL CONTENT */
 
 .page-footer{
