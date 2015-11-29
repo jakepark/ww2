@@ -32,7 +32,7 @@ function init() {
 	// container = document.getElementById('modelView');
 
 
-	camera = new THREE.PerspectiveCamera(75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 100000);
+	camera = new THREE.PerspectiveCamera(45, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 100000);
 	camera.position.x = 400;
 	camera.position.y = 200;
 	camera.position.z = 400;

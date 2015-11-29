@@ -43,7 +43,9 @@
         "paragraphs": [
           "The decision to undertake a cross-channel invasion in 1944 was taken at the Trident Conference in Washington in May 1943. General Dwight D. Eisenhower was appointed commander of Supreme Headquarters Allied Expeditionary Force (SHAEF), and General Bernard Montgomery was named as commander of the 21st Army Group, which comprised all the land forces involved in the invasion. The Normandy coast was chosen as the site of the invasion, with the Americans assigned to land at Utah and Omaha Beaches, the British at Sword and Gold Beaches, and Canadians at Juno Beach. To meet the conditions expected on the Normandy beachhead, special technology was developed, including two artificial ports called Mulberry harbours and an array of specialised tanks nicknamed Hobart's Funnies. In the months leading up to the invasion, the Allies conducted a substantial military deception, Operation Bodyguard, using both electronic and visual misinformation. This misled the Germans as to the date and location of the main Allied landings. Adolf Hitler placed German Field Marshal Erwin Rommel in charge of developing fortifications all along the Atlantic Wall in anticipation of an invasion.",
           "The Allies failed to reach their goals for the first day, but gained a tenuous foothold that they gradually expanded as they captured the port at Cherbourg on 26 June and the city of Caen on 21 July. A failed counterattack by German forces on 8 August led to 50,000 soldiers of the German 7th Army being trapped in the Falaise pocket. The Allies launched an invasion of southern France (Operation Dragoon) on 15 August, and the Liberation of Paris followed on 25 August. German forces retreated across the Seine on 30 August 1944, marking the close of Operation Overlord.",
-          "'Overlord' was the name assigned to the establishment of a large-scale lodgement on the Continent. The first phase, the amphibious invasion and establishment of a secure foothold, was codenamed Operation Neptune. To gain the required air superiority needed to ensure a successful invasion, the Allies launched a bombing campaign (codenamed Operation Pointblank) to target German aircraft production, fuel supplies, and airfields. Under the Transport Plan, communications infrastructure and road and rail links were bombed to cut off the north of France and make it more difficult to bring up reinforcements. These attacks were widespread so as to avoid revealing the exact location of the invasion. Elaborate deceptions were planned to prevent the Germans from determining the timing and location of the invasion."
+          "'Overlord' was the name assigned to the establishment of a large-scale lodgement on the Continent. The first phase, the amphibious invasion and establishment of a secure foothold, was codenamed Operation Neptune. To gain the required air superiority needed to ensure a successful invasion, the Allies launched a bombing campaign (codenamed Operation Pointblank) to target German aircraft production, fuel supplies, and airfields. Under the Transport Plan, communications infrastructure and road and rail links were bombed to cut off the north of France and make it more difficult to bring up reinforcements. These attacks were widespread so as to avoid revealing the exact location of the invasion. Elaborate deceptions were planned to prevent the Germans from determining the timing and location of the invasion.",
+          "The introduction in late 1943 of the P51 'Mustang' allowed escort missions to accompany long range bombers deep into enemy territory for continuous mission coverage. Major General James Doolittle, the new commander of the 8th Air Force as 1944 started, told the fighters in the late winter of 1944 to stop flying in formation with the bombers and instead attack the Luftwaffe wherever it could be found. The Mustang groups were sent in well before the bombers in a 'fighter sweep' as a form of air supremacy action, intercepting German fighters — be they the usual single-engined Bf 109Gs or Fw 190As, or the twin-engined Zerstörer heavy fighters like the Bf 110Gs, wherever they were found to be forming up. As a result, the Luftwaffe lost 17% of its fighter pilots in just over a week, and the Allies were able to establish air superiority.",
+          "The numerical superiority of the USAAF fighters, superb flying characteristics of the P-51, and pilot proficiency helped cripple the Luftwaffe'​s fighter force. As a result, the fighter threat to US, and later British, bombers was greatly diminished by July 1944."
         ],
         "images": [
           {
@@ -59,7 +61,7 @@
             "id": 0,
             "src": "chapters/models/p51/p51.2.png",
             "title": "P51D Mustang",
-            "caption": "Fine long range escort fighter and close air support"
+            "caption": "Superb long range escort and close air support warbird"
           }
         ],
 
@@ -68,29 +70,30 @@
           {"images": 0},
           {"paragraphs": 1},
           {"paragraphs": 2},
-          {"models": 0}
+          {"models": 0},
+          {"paragraphs": 3},
+          {"paragraphs": 4}
         ]
       }
     ],
 
     "objectives": [
-      "Describe",
-      "Contrast",
-      "Identify",
-      "Explain"
+      "Describe the course of the war following June 6th, 1944 on the Western front.",
+      "Contrast the disparity in combined arms available to the Allied and Axis powers.",
+      "Identify the strategic advantages the Allieds had leading up to the invasion.",
+      "Explain the relative strengths and weaknesses."
     ],
 
     "thoughts": [
-      "Did",
-      "Should",
-      "Assess",
-      "Military"
+      "Did Fortress Europe live up to the expectations of the Axis defenders, and could a decisive response have influenced the operation's results?",
+      "Should other invasion routes along the Continent have been considered?",
+      "Assess the effect of Eisenhower's commital to five concurrent division landings."
     ],
 
     "terms": [
       "D-Day",
-      "Brecourt",
-      "Beaches"
+      "Atlantic Wall",
+      "Cherbourg"
     ]
 
 
