@@ -26,6 +26,13 @@
   color: grey;
 }
 
+.toc > .about {
+  display: inline;
+  margin: 0 0 0 50px;
+  position: relative;
+  top: 17px;
+}
+
 .toc > .search {
   font-size: 18px;
   float: right;

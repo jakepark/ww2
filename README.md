@@ -36,7 +36,7 @@ Battle of Leyte Gulf maps scanned from Reports of General MacArthur, Vol 1.
 
 ## Workings of the application
 
-- The application filesystem layout structure is based on the [angular-seed] project.
+- The application filesystem layout structure is based on the angular-seed project.
 - There is no dynamic backend (no application server) for this application.
   An application server is emulated by fetching static json files.
 
