@@ -32,14 +32,12 @@ function init() {
 	// container = document.getElementById('modelView');
 
 
-	camera = new THREE.PerspectiveCamera(45, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 2000);
-	camera.position.x = 25;
-	camera.position.y = 25;
-	camera.position.z = 25;
-
+	camera = new THREE.PerspectiveCamera(45, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 100000);
+	camera.position.x = 400;
+	camera.position.y = 200;
+	camera.position.z = 400;
 
 	scene = new THREE.Scene();
-
 
 
 
@@ -66,28 +64,12 @@ function init() {
 	cameraControls = new THREE.TrackballControls(camera, webglRenderer.domElement);
 	cameraControls.target.set(0, 0, 0);
 
-	// MODEL
+	var loader = new THREE.JSONLoader(),
+	// callbackKey = function(geometry) {createScene(geometry,  0, 0, 0, 15, "green.jpg")};
+	// loader.load("p51.0.js", callbackKey);
 
-
-	var onProgress = function ( xhr ) {
-		if ( xhr.lengthComputable ) {
-			var percentComplete = xhr.loaded / xhr.total * 100;
-			console.log( Math.round(percentComplete, 2) + '% downloaded' );
-		}
-	};
-	var onError = function ( xhr ) {
-	};
-	THREE.Loader.Handlers.add( /\.dds$/i, new THREE.DDSLoader() );
-	var loader = new THREE.OBJMTLLoader();
-	loader.load( 'chapters/models/p51/p51.obj', 'chapters/models/p51/p51.mtl', function ( object ) {
-		object.position.y = 0;
-		scene.add( object );
-	}, onProgress, onError );
-
-	// var loader = new THREE.JSONLoader(),
-	//
-	// callbackKey = function(geometry, materials) {createScene(geometry, materials, 0, 0, 0, 15 )};
-	// loader.load("chapters/models/p51/p51.js", callbackKey);
+	callbackKey = function(geometry, materials) {createScene(geometry, materials, 0, 0, 0, 15 )};
+	loader.load("chapters/models/p51/p51.js", callbackKey);
 
 	window.addEventListener('resize', onWindowResize, false);
 
