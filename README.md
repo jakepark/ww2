@@ -3,14 +3,21 @@
 ## Overview
 
 This is intended to be an demo project interactive World War 2 history site
-modeled on "The West Point History of the Civil War" by Rowan Technology.
+modeled on ["The West Point History of the Civil War"](http://www.westpointhistoryofwarfare.com/) by
+[Rowan Technology](http://www.rowantechsolutions.com/)
 
 Specific chapters include:
-- [x] Brecourt Manor Assault, following the D-Day landings in 1944.
+- [x] Operation Overlord
 - [x] Operation Market Garden
 - [x] Battle of Leyte Gulf
 
+## Technologies
+
+AngularJS, Three.js
+
 ## References
+
+P51D 3D model and rendered images, own work.
 
 4th Division map is from 'Cross-Channel Attack', by Gordon A. Harrison,
 Chapter VIII ('The Sixth of June'), page 30.
@@ -19,6 +26,8 @@ Operation Market Garden maps from 'Major And Mrs Holt's Battlefield Guide To
 Operation Market Garden'.
 
 Battle of Leyte Gulf maps scanned from Reports of General MacArthur, Vol 1.
+
+
 
 ## Workings of the application
 
@@ -29,4 +38,4 @@ Battle of Leyte Gulf maps scanned from Reports of General MacArthur, Vol 1.
 
 ## Author
 
-Jake Park - parkjake.com
+[Jake Park - parkjake.com](http://parkjake.com/)
