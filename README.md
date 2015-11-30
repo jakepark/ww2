@@ -19,6 +19,11 @@ AngularJS, Three.js
 
 P51D 3D model and rendered images, own work.
 
+Text from Wikipedia.org retrieved November 29 2015:
+- [Operation Overlord](https://en.wikipedia.org/wiki/Operation_Overlord/)
+- [Operation Market Garden](https://en.wikipedia.org/wiki/Operation_Market_Garden/)
+- [Battle of Leyte Gulf](https://en.wikipedia.org/wiki/Battle_of_Leyte_Gulf)
+
 4th Division map is from 'Cross-Channel Attack', by Gordon A. Harrison,
 Chapter VIII ('The Sixth of June'), page 30.
 
