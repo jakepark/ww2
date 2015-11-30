@@ -4,10 +4,10 @@ module.exports = function(config){
     basePath : '../',
 
     files : [
-      'app/bower_components/angular/angular.js',
-      'app/bower_components/angular-route/angular-route.js',
-      'app/bower_components/angular-resource/angular-resource.js',
-      'app/bower_components/angular-mocks/angular-mocks.js',
+      'app/public/vendor/angular/angular.js',
+      'app/public/vendor/angular-route/angular-route.js',
+      'app/public/vendor/angular-resource/angular-resource.js',
+      'app/public/vendor/angular-mocks/angular-mocks.js',
       'app/js/**/*.js',
       'test/unit/**/*.js'
     ],
