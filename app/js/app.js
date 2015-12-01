@@ -4,7 +4,7 @@
 
 var ww2App = angular.module('ww2App', [
   'ngRoute',
-
+  'angular-google-analytics',
   'ww2Animations',
   'ww2Controllers',
   'ww2Filters',
@@ -34,3 +34,10 @@ ww2App.config(['$routeProvider',
         redirectTo: '/chapters'
       });
   }]);
+
+  ww2App.config(function (AnalyticsProvider){
+    AnalyticsProvider.setAccount('UA-68692328-4');
+    AnalyticsProvider.trackPages(true);
+  })
+
+  ww2App.run(function(Analytics){});
