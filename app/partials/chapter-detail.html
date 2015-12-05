@@ -78,9 +78,7 @@
         </div>
 
         <div ng-if="key === 'images'"
-             ng-controller='ModalCtrl'
-
-             >
+             ng-controller='ModalCtrl'>
 
           <div class='div-modal-thumb' data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
             <img class='modal-thumb-img' ng-src='{{selectedImage[0].src}}'
@@ -93,15 +91,11 @@
             <h2 class='modal-title'>Figure {{chapter.id}}.{{value+1}}: {{selectedImage[0].title}}</h2>
               <img class='modal-full-img' ng-src='{{selectedImage[0].src}}' >
             <p class='modal-caption'>{{selectedImage[0].caption}}</p>
-
-
           </modal-dialog>
         </div>
 
         <div ng-if="key === 'models'"
-             ng-controller='ModalCtrl'
-
-             >
+             ng-controller='ModalCtrl'>
 
           <div class='div-modal-thumb' data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
             <img class='modal-thumb-img' ng-src='{{selectedImage[0].src}}'
@@ -112,32 +106,14 @@
 
           <modal-dialog show='modalShown' width='90%'>
             <h2 class='modal-title'>Model {{chapter.id}}.{{value+1}}: {{selectedImage[0].title}}</h2>
-              <!-- <img class='modal-full-img' ng-src='{{selectedImage[0].src}}' > -->
-              <!-- <script src="js/threejs/modelViewer.js"></script> -->
               <div ng-include="templateURL" id="modelView">
-
               </div>
             <p class='model-directions'>TOOLTIP: Use the mouse to rotate model.</p>
             <p class='modal-caption'>{{selectedImage[0].caption}}</p>
-
-
-
           </modal-dialog>
         </div>
 
 
-        <!-- <para-img>
-          {{chapter.pages[page][key][value]}}
-        </para-img> -->
-
-
-    <!-- <div ng-repeat="paragraph in chapter.pages[page].paragraphs">
-      <p ng-bind-html="paragraph | nl2br">{{paragraph}}</p>
-    </div> -->
-    <!-- <div ng-repeat="image in chapter.pages[page].images">
-      <img src='{{image}}'>
-    </div> -->
-        <!-- {{chapter.pages[page].paragraphs[value]}} -->
       </div>
     </div>
 
