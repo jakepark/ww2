@@ -8,7 +8,8 @@ var ww2App = angular.module('ww2App', [
   'ww2Animations',
   'ww2Controllers',
   'ww2Filters',
-  'ww2Services'
+  'ww2Services',
+  'ui.bootstrap'
 ]);
 
 ww2App.config(['$routeProvider',
