@@ -57,13 +57,7 @@ ww2Controllers.directive('modalDialog', function() {
         scope.show = false;
       };
     },
-    template: "<div class='ng-modal' ng-show='show' ng-blur='closeModal()' tabindex='-1'>" +
-                "<div class='ng-modal-overlay'></div>" +
-                "<div class='ng-modal-dialog' ng-style='dialogStyle'>" +
-                  "<img src='assets/images/back_arrow.png' ng-click='hideModal()'>" +
-                  "<div class='ng-modal-dialog-content' ng-transclude></div>" +
-                "</div>" +
-              "</div>"
+    templateUrl: 'templates/modal.html'
     // <img src='assets/images/back_arrow.png'>
   };
 });
