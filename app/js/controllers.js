@@ -56,6 +56,15 @@ ww2Controllers.controller('ChapterDetailCtrl',
       navright.addClass('shift-left');
     }
 
+    $scope.viewModal = function($event){
+      var elem = "<text-modal parent-function=parentFunction()></text-modal>"
+      var isoScope = $scope.$new(true);
+      isoScope.parentFunction = $scope.parentFunction;
+
+      $compile(elem)(isoScope, function(x){
+        $('body').append(x);
+      });
+    }
     // $scope.mainImageUrl = chapter.images[0];
     // $scope.setImage = function(imageUrl){
     //   $scope.mainImageUrl = imageUrl;
