@@ -61,3 +61,13 @@ ww2Controllers.directive('modalDialog', function() {
     // <img src='assets/images/back_arrow.png'>
   };
 });
+
+ww2Controllers.directive('textModal', function(){
+  return {
+    scope: {
+      parentFunction: "&"
+    },
+    templateUrl: 'templates/modal.html',
+    controller: 'ModalCtrl'
+  }
+})
