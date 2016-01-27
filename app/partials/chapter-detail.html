@@ -82,7 +82,7 @@
 
           <div class='div-modal-thumb' data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
             <img class='modal-thumb-img' ng-src='{{selectedImage[0].src}}'
-                 ng-click="toggleModal()">
+                 ng-click="viewModal()">
             <h3 class='modal-thumb-title'>Figure {{chapter.id}}.{{value+1}}: </h3>
               <p class='modal-thumb-title'>{{selectedImage[0].title}}</p>
           </div>

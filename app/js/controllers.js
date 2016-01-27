@@ -56,6 +56,10 @@ ww2Controllers.controller('ChapterDetailCtrl',
       navright.addClass('shift-left');
     }
 
+    $scope.parentFunction = function(){
+      console.log('parent')
+    }
+
     $scope.viewModal = function($event){
       var elem = "<text-modal parent-function=parentFunction()></text-modal>"
       var isoScope = $scope.$new(true);
