@@ -57,7 +57,7 @@ ww2Controllers.directive('modalDialog', function() {
         scope.show = false;
       };
     },
-    templateUrl: 'templates/modal.html'
+    templateUrl: 'js/templates/modal.html'
     // <img src='assets/images/back_arrow.png'>
   };
 });
@@ -67,7 +67,7 @@ ww2Controllers.directive('textModal', function(){
     scope: {
       parentFunction: "&"
     },
-    templateUrl: 'templates/modal.html',
+    templateUrl: 'js/templates/modal.html',
     controller: 'ModalCtrl'
   }
 })

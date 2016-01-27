@@ -13,9 +13,9 @@ ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
 ]);
 
 ww2Controllers.controller('ChapterDetailCtrl',
-  ['$scope', '$routeParams', 'Chapter',
+  ['$scope', '$routeParams', 'Chapter', '$compile',
 
-  function($scope, $routeParams, Chapter) {
+  function($scope, $routeParams, Chapter, $compile) {
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
       $scope.pages = chapter.pages;
 
