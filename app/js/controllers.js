@@ -60,7 +60,8 @@ ww2Controllers.controller('ChapterDetailCtrl',
       console.log('parent')
     }
 
-    $scope.viewModal = function($event){
+    $scope.viewModal = function(){
+      debugger
       var elem = "<text-modal parent-function=parentFunction()></text-modal>"
       var isoScope = $scope.$new(true);
       isoScope.parentFunction = $scope.parentFunction;
@@ -78,6 +79,7 @@ ww2Controllers.controller('ChapterDetailCtrl',
 ]);
 
 ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
+  debugger
   $scope.modalShown = false;
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
