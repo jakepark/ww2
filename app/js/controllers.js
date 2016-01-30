@@ -2,7 +2,7 @@
 
 /* Controllers */
 
-var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize']);
+var ww2Controllers = angular.module('ww2Controllers', ['ngSanitize', 'ui.bootstrap']);
 
 
 ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
@@ -61,7 +61,7 @@ ww2Controllers.controller('ChapterDetailCtrl',
     }
 
     $scope.viewModal = function(){
-      debugger
+
       var elem = "<text-modal parent-function=parentFunction()></text-modal>"
       var isoScope = $scope.$new(true);
       isoScope.parentFunction = $scope.parentFunction;
@@ -79,7 +79,6 @@ ww2Controllers.controller('ChapterDetailCtrl',
 ]);
 
 ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
-  debugger
   $scope.modalShown = false;
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
@@ -89,6 +88,10 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   $scope.view3dModel = function(){
     $scope.templateURL = 'partials/model-detail.html'
   }
+}]);
 
+ww2Controllers.controller('ModalDetailCtrl', ['$scope', '$modalInstance', function($scope, $modalInstance) {
 
+  var target = $('#basicModal');
+  target.modal('show');
 }]);
