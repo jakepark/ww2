@@ -68,6 +68,6 @@ ww2Controllers.directive('textModal', function(){
       parentFunction: "&"
     },
     templateUrl: 'js/templates/modal.html',
-    controller: 'ModalDetailCtrl'
+    controller: 'ModalInstanceCtrl'
   }
 })

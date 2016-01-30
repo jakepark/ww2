@@ -13,9 +13,9 @@ ww2Controllers.controller('ChapterListCtrl', ['$scope', 'Chapter',
 ]);
 
 ww2Controllers.controller('ChapterDetailCtrl',
-  ['$scope', '$routeParams', 'Chapter', '$compile',
+  ['$scope', '$routeParams', 'Chapter', '$compile', '$uibModal',
 
-  function($scope, $routeParams, Chapter, $compile) {
+  function($scope, $routeParams, Chapter, $compile, $uibModal) {
     $scope.chapter = Chapter.get({chapterId: $routeParams.chapterId}, function(chapter){
       $scope.pages = chapter.pages;
 
@@ -90,8 +90,7 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   }
 }]);
 
-ww2Controllers.controller('ModalDetailCtrl', ['$scope', '$modalInstance', function($scope, $modalInstance) {
-
+ww2Controllers.controller('ModalInstanceCtrl', ['$scope', '$uibModalInstance', function($scope, $uibModalInstance) {
   var target = $('#basicModal');
   target.modal('show');
 }]);
