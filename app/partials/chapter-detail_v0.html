@@ -78,8 +78,20 @@
         </div>
 
         <div ng-if="key === 'images'"
-             >
-          <bootstrap-modal></bootstrap-modal>
+             ng-controller='ModalCtrl'>
+
+          <div class='div-modal-thumb' data-ng-init="selectedImage = (chapter.pages[page][key] | filter:{id:value})">
+            <img class='modal-thumb-img' ng-src='{{selectedImage[0].src}}'
+                 ng-click="viewModal()">
+            <h3 class='modal-thumb-title'>Figure {{chapter.id}}.{{value+1}}: </h3>
+              <p class='modal-thumb-title'>{{selectedImage[0].title}}</p>
+          </div>
+
+          <modal-dialog show='modalShown' width='90%'>
+            <h2 class='modal-title'>Figure {{chapter.id}}.{{value+1}}: {{selectedImage[0].title}}</h2>
+              <img class='modal-full-img' ng-src='{{selectedImage[0].src}}' >
+            <p class='modal-caption'>{{selectedImage[0].caption}}</p>
+          </modal-dialog>
         </div>
 
         <div ng-if="key === 'models'"

@@ -62,7 +62,7 @@ ww2Controllers.directive('modalDialog', function() {
   };
 });
 
-ww2Controllers.directive('textModal', function(){
+ww2Controllers.directive('bootstrapModal', function(){
   return {
     scope: {
       parentFunction: "&"

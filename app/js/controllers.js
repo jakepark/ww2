@@ -36,6 +36,13 @@ ww2Controllers.controller('ChapterDetailCtrl',
 
     });
 
+    $scope.open = function() {
+        var uibModalInstance = $uibModal.open({
+          templateUrl: 'js/templates/modal.html',
+          controller: 'ModalInstanceCtrl',
+        });
+      };
+
     $scope.navbarLeft = function() {
       var navbar = angular.element(document.querySelector(".chapter-container"));
       navbar.removeClass('shift-right');
@@ -90,7 +97,7 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   }
 }]);
 
-ww2Controllers.controller('ModalInstanceCtrl', ['$scope', '$uibModalInstance', function($scope, $uibModalInstance) {
+ww2Controllers.controller('ModalInstanceCtrl', ['$scope', '$uibModalInstance', function($scope, $uibModalInstance ) {
   var target = $('#basicModal');
   target.modal('show');
 }]);
