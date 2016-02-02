@@ -85,7 +85,7 @@ ww2Controllers.controller('ChapterDetailCtrl',
   }
 ]);
 
-ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
+ww2Controllers.controller('ModalCtrl', ['$scope','$uibModal', function($scope, $uibModal) {
   $scope.modalShown = false;
   $scope.toggleModal = function() {
     $scope.modalShown = !$scope.modalShown;
@@ -97,7 +97,8 @@ ww2Controllers.controller('ModalCtrl', ['$scope', function($scope) {
   }
 }]);
 
-ww2Controllers.controller('ModalInstanceCtrl', ['$scope', '$uibModalInstance', function($scope, $uibModalInstance ) {
-  var target = $('#basicModal');
-  target.modal('show');
+ww2Controllers.controller('ModalInstanceCtrl', ['$scope', function($scope ) {
+  debugger
+  // var target = $('#basicModal');
+  // target.modal('show');
 }]);
