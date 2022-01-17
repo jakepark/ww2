@@ -11,6 +11,14 @@ Specific chapters include:
 - [x] Operation Market Garden
 - [x] Battle of Leyte Gulf
 
+## Installation
+
+ npm install -g bower
+ npm install
+ npm start
+
+http://localhost:8000/app/#/chapters
+
 ## Technologies
 
 AngularJS, Three.js
